@@ -21,5 +21,7 @@ public class example1 {
         name.toLowerCase();
         System.out.println(name);
 
+        System.out.println(name);
+
     }
 }
