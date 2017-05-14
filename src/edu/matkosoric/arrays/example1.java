@@ -11,28 +11,35 @@ public class example1 {
 
     public static void main(String[] args) {
 
-        // without explicitly declaring the data type,
-        // ArrayList will treat its elements as Object type.
+        // ArrayList do not accept primitive types,
+        // but only their wrappers.
+        // therefore, this will not compile
+//        ArrayList<int> listIncorrect = new ArrayList<int>();    //does not compile
 
-        //this part of code declares Integer wrapper as a type of ArrayList elements
+        // this part of code declares Integer wrapper as a type of ArrayList elements
+        // the list will accept only Integers
         ArrayList<Integer> listFirst = new ArrayList();
         listFirst.add(41);
         listFirst.add(42);
         listFirst.add(43);
         listFirst.add(44);
+//        listFirst.add(true);  //does not compile
         System.out.println(listFirst);
         System.out.println(listFirst.get(1) instanceof Integer);
-        System.out.println(listFirst.get(1) instanceof Object);
 
-        // the following code does not declare a data type for the elements of ArrayList
+        // the following code does not declare explicitly
+        // a data type for the elements of ArrayList.
+        // They are implicitly turned to wrapper class.
+        // Also, there is no limitation for the acceptance of different types
         ArrayList listSecond = new ArrayList();
-        listSecond.add(41);
-        listSecond.add(42);
-        listSecond.add(43);
-        listSecond.add(44);
+        listSecond.add('a');
+        listSecond.add('b');
+        listSecond.add('c');
+        listSecond.add('d');
+        listSecond.add(true);   //this will compile
         System.out.println(listSecond);
-        System.out.println(listSecond.get(1) instanceof Integer);
-        System.out.println(listSecond.get(1) instanceof Object);
+        System.out.println(listSecond.get(1) instanceof Character);
+        System.out.println(listSecond.get(4) instanceof Boolean);
 
     }
 
