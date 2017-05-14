@@ -16,7 +16,7 @@ public class example1 {
         // therefore, this will not compile
 //        ArrayList<int> listIncorrect = new ArrayList<int>();    //does not compile
 
-        // this part of code declares Integer wrapper as a type of ArrayList elements
+        // this part of code specifies Integer wrapper as a type of ArrayList elements
         // the list will accept only Integers
         ArrayList<Integer> listFirst = new ArrayList();
         listFirst.add(41);
@@ -29,7 +29,7 @@ public class example1 {
 
         // the following code does not declare explicitly
         // a data type for the elements of ArrayList.
-        // They are implicitly turned to wrapper class.
+        // They are implicitly turned to a wrapper class.
         // Also, there is no limitation for the acceptance of different types
         ArrayList listSecond = new ArrayList();
         listSecond.add('a');
