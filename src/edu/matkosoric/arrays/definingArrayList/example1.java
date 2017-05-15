@@ -1,4 +1,4 @@
-package edu.matkosoric.arrays;
+package edu.matkosoric.arrays.definingArrayList;
 
 import java.util.ArrayList;
 

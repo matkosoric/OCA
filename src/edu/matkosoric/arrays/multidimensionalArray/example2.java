@@ -1,4 +1,4 @@
-package edu.matkosoric.arrays;
+package edu.matkosoric.arrays.multidimensionalArray;
 
 /**
  * Code examples for Oracle Certified Associate (OCA) Exam
