@@ -11,8 +11,6 @@ public class declaringVariables {
     public static void main(String[] args) {
 
 
-
-
         boolean b1 = true;
         Boolean b2 = true;
 //        boolean b3 = True;      //does not compile, True is not a keyword
