@@ -2,7 +2,6 @@ package edu.matkosoric.dates.immutability;
 
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
-import java.time.temporal.Temporal;
 
 /**
  * Code examples for Oracle Certified Associate (OCA) Exam
