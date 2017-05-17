@@ -34,6 +34,11 @@ public class mainMethod {
     // if you remove original main method, this method will compile
     // and be treated as application's entry point.
 
+    // keywords "public" and "static" can be written in reversed order
+    // following two statements are treated as equal by the compiler
+//    public static void main(String[] args) {}
+//    static public void main(String[] args) {}
+
 }
 
 
