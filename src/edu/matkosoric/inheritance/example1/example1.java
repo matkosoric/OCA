@@ -1,4 +1,4 @@
-package edu.matkosoric.inheritance;
+package edu.matkosoric.inheritance.example1;
 
 /**
  * Code examples for Oracle Certified Associate (OCA) Exam
@@ -6,8 +6,12 @@ package edu.matkosoric.inheritance;
  * Created by Matko Soric.
  */
 
-// first
-// public class example1 implements interfaceA extends abClass   {
+// after class name, stating extended class has priority over implementing interface
+// if the order is reversed, the code will not compile, for example
+// class example2 implements greetingInterface extends abClass {
+//    public void interfaceGreeting1(){}
+//    public void interfaceGreeting2(){}
+//}
 
 public class example1 extends abClass implements greetingInterface  {
 
