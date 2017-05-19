@@ -16,8 +16,10 @@ public class immutability {
         LocalDate date = LocalDate.of(2017, 5, 16);
         System.out.println(date);
 
-        date.plus(20, ChronoUnit.DAYS);
+        date.plus(20, ChronoUnit.DAYS);     //this will NOT affect the value of LocalDate instance
+        System.out.println(date);
+
+        date = date.plus(20, ChronoUnit.DAYS);      //this will affect it
         System.out.println(date);
     }
-
 }
