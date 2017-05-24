@@ -1,8 +1,11 @@
 package edu.matkosoric.datatypes.scope;
 
 /**
- * Created by matko on 24.5.2017..
+ * Code examples for Oracle Certified Associate (OCA) Exam
+ * Java 8 SE, 2017.
+ * Created by Matko Soric.
  */
+
 public class scopeIssue {
 
     public static int number = 777;       // class-wide scope
