@@ -1,4 +1,4 @@
-package edu.matkosoric.datatypes.declaringvariables;
+package edu.matkosoric.datatypes;
 
 /**
  * Code examples for Oracle Certified Associate (OCA) Exam

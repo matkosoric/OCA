@@ -15,6 +15,11 @@ public class declaringVariables {
         Boolean b2 = true;
 //        boolean b3 = True;      //does not compile, True is not a keyword
 //        Boolean b4 = False;     //does not compile, False is not a keyword
+        boolean b5 = new Boolean ("True");              // true
+        Boolean b6 = new Boolean("tRuE");               // true
+        Boolean b7 = new Boolean("fAlSe");              // false
+        Boolean b8 = new Boolean("Jimmy Hendrix");      // false
+
 
 
         byte byt1 = 127;
