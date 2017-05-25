@@ -10,13 +10,22 @@ public class example1 {
 
     public static void main(String[] args) {
 
-        // the else block belongs to the nearest if, no matter the indentation
+        // without the brackets, the else block belongs to the nearest if, no matter the indentation
 
         if (4<6)
             if (true == false)
                 if (9 == 4) System.out.println("third level");
-            else System.out.println("7");
-        else System.out.println("Hi");          // this is alternative to the (true == false) part
+            else System.out.println("1. Michal Jackson");
+        else System.out.println("2. Billie Jean");          // this is alternative to the (true == false) part
+
+
+        // the program flow can be altered with braces
+        if (4<6)
+            if (true == false) {
+                if (9 == 4) System.out.println("third level");      // this IF now does not have a matching else part
+            }
+            else System.out.println("3. Michael Jackson");       // here, this is alternative to the (true == false) part
+        else System.out.println("4. Billie Jean");
 
     }
 
