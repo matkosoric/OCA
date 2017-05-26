@@ -32,6 +32,9 @@ public class binarysearch {
         int searchResult3 = Arrays.binarySearch(orderedArrayOfPrimeNumbers, 37);
         System.out.println("Sorted array search result: " + searchResult3);     // returns index key
 
+
+
+
     }
 
 }
