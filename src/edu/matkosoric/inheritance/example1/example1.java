@@ -28,7 +28,6 @@ public class example1 extends abClass implements greetingInterface  {
     public void abstractGreeting4() { System.out.println("Good day!");
     }
 
-
     public static void main(String[] args) {
 
         example1 a = new example1();
@@ -46,6 +45,9 @@ interface greetingInterface {
     default void interfaceGreeting3() {
         System.out.println("Hello!");
     }
+
+//    @Override                                             // does not compile
+//    default boolean equals (Object obj){return true;}     // interface can not override methods from Object class
 }
 
 abstract class abClass {
