@@ -1,5 +1,7 @@
 package edu.matkosoric.inheritance.predicateinterface;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.function.Predicate;
 
 /**
@@ -43,14 +45,37 @@ public class testingWithPredicate {
 
 
         // filtering lists with predicate
+        List<Double> bucketOfVariousNumbers = new ArrayList<>();
+        bucketOfVariousNumbers.add(1.00000);
+        bucketOfVariousNumbers.add(1.61803);
+        bucketOfVariousNumbers.add(2.00000);
+        bucketOfVariousNumbers.add(2.71828);
+        bucketOfVariousNumbers.add(3.00000);
+        bucketOfVariousNumbers.add(3.14159);
+        bucketOfVariousNumbers.add(4.00000);
+        bucketOfVariousNumbers.add(5.00000);
+        bucketOfVariousNumbers.add(6.00000);
+        bucketOfVariousNumbers.add(6.28318);
+        bucketOfVariousNumbers.add(7.00000);
+        List<Double> listOfMathematicalConstants =
+                searchingForMathConstants (bucketOfVariousNumbers, (k) -> k/k.intValue() > 1);
 
+        for (Double element: listOfMathematicalConstants)
+            System.out.println(element);
+    }
 
-
-
-
+    // filtering method
+    private static List<Double> searchingForMathConstants(List<Double> variousNumbers, Predicate<Double> predicate) {
+        List<Double> resultList = new ArrayList<>();
+        for (Double element : variousNumbers) {
+            if (predicate.test(element))
+                    resultList.add(element);
+        }
+        return resultList;
     }
 
 
+    // method with predicate as a parameter
     static void watchingMTV(String channel, Predicate<String> predicate) {
         if (predicate.test(channel)) {
             System.out.println("Watching MTV");
