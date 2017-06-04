@@ -1,19 +1,25 @@
 package edu.matkosoric.datatypes.declaringvariables;
 
 /**
- * Created by matko on 15.5.2017..
+ * Code examples for Oracle Certified Associate (OCA) Exam
+ * Java 8 SE, 2017.
+ * Created by Matko Soric.
  */
+
 public class declaringVariables {
 
     public static void main(String[] args) {
-
-
 
 
         boolean b1 = true;
         Boolean b2 = true;
 //        boolean b3 = True;      //does not compile, True is not a keyword
 //        Boolean b4 = False;     //does not compile, False is not a keyword
+        boolean b5 = new Boolean ("True");              // true
+        Boolean b6 = new Boolean("tRuE");               // true
+        Boolean b7 = new Boolean("fAlSe");              // false
+        Boolean b8 = new Boolean("Jimmy Hendrix");      // false
+
 
 
         byte byt1 = 127;
@@ -30,6 +36,8 @@ public class declaringVariables {
 //        Byte byte12 = (byte) Byte.MAX_VALUE + 1;    //does not compile, value is treated as integer since it is out of scope
         Byte byte13 = (byte) 128;       //value is out of scope, but is nonetheless transformed to the corresponding value in the other side of scope
 
+
+
         short s1 = 88;
         Short s2 = 88;
 //        short s3 = 88.2;    //does not compile, double has to be casted
@@ -39,6 +47,7 @@ public class declaringVariables {
         Short s7 = (short) 88.2;
         short s8 = (short) (int) (float) 88.2;      //output: 88
         short s9 = (short) (byte) (float) 129.2;    //output: -127, due to the (byte) cast
+
 
 
         int i1 = 24;

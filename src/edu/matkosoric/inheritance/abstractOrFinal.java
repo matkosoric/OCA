@@ -1,0 +1,17 @@
+package edu.matkosoric.inheritance;
+
+/**
+ * Code examples for Oracle Certified Associate (OCA) Exam
+ * Java 8 SE, 2017.
+ * Created by Matko Soric.
+ */
+
+// abstract class can not be marked as final
+
+//public abstract final class abstractOrFinal {}        //does not compile
+
+//either abstract
+abstract class abClass {}
+
+//either final
+final class fClass {}
