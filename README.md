@@ -1,5 +1,5 @@
 # OCA
-Java 8 code examples for OCA exam
+## Java 8 code examples for the OCA exam
 
 
 After doing a couple of mockup-exams, I realised that it is necessary to be familiar with a code that does compile, just as much as with code that does NOT compile. Following examples include both forms of code. Incorrect statements are commented out, and can be easily transformed back to code that throws compile-time errors.
