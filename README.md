@@ -7,3 +7,14 @@ After doing a couple of mockup-exams, I realised that it is necessary to be fami
 The examples are not ordered in any way. They are just grouped by similarity (eg. arrays, flowcontrol, lambdas, exceptions, etc.)
 
 One code example is not necessarily designed to explain only one thing; it can ilustrate several syntactic or programming principles of Java language. 
+
+
+These are the resources that I used to prepare the exam:
+
+
+- [MIT video introduction to Java] (https://www.youtube.com/watch?v=oqnLQVFaqYI&list=PLXqaWKDQpdPn4UJ2fOFxl6Yl_DC51FFUL)
+
+- [Jeanne Boyarsky and Scott Selikoff: Java OCA 8 Programmer I Study Guide] (https://www.selikoff.net/java-oca-8-programmer-i-study-guide/)
+
+- [Mala Gupta: OCA Java SE 7 Programmer I Certification Guide] (https://www.manning.com/books/oca-java-se-7-programmer-i-certification-guide)
+
