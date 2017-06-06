@@ -12,11 +12,10 @@ One code example is not necessarily designed to explain only one thing; it can i
 These are the resources that I used to prepare the exam:
 
 
-<a href="https://www.youtube.com/watch?v=oqnLQVFaqYI&list=PLXqaWKDQpdPn4UJ2fOFxl6Yl_DC51FFUL">MIT video introduction to Java</a>
+- <a href="https://www.youtube.com/watch?v=oqnLQVFaqYI&list=PLXqaWKDQpdPn4UJ2fOFxl6Yl_DC51FFUL">MIT video introduction to Java</a>
 
-- [MIT video introduction to Java] (https://www.youtube.com/watch?v=oqnLQVFaqYI&list=PLXqaWKDQpdPn4UJ2fOFxl6Yl_DC51FFUL/)
+- <a href="https://www.selikoff.net/java-oca-8-programmer-i-study-guide/">Jeanne Boyarsky and Scott Selikoff: Java OCA 8 Programmer I Study Guide</a>
 
-- [Jeanne Boyarsky and Scott Selikoff: Java OCA 8 Programmer I Study Guide] (https://www.selikoff.net/java-oca-8-programmer-i-study-guide/)
+- <a href="https://www.manning.com/books/oca-java-se-7-programmer-i-certification-guide/">Mala Gupta: OCA Java SE 7 Programmer I Certification Guide</a>
 
-- [Mala Gupta: OCA Java SE 7 Programmer I Certification Guide] (https://www.manning.com/books/oca-java-se-7-programmer-i-certification-guide/)
 
