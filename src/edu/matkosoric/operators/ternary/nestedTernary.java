@@ -1,4 +1,4 @@
-package edu.matkosoric.edu.matkosoric.operators;
+package edu.matkosoric.operators.ternary;
 
 /**
  * Code examples for Oracle Certified Associate (OCA) Exam
