@@ -10,7 +10,7 @@ import java.util.List;
  * Created by Matko Soric.
  */
 
-public class binarysearch {
+public class primitivenumbers {
 
     public static void main(String[] args) {
 

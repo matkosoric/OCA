@@ -9,7 +9,7 @@ public class example2 {
 
     public static void main(String[] args) {
 
-        //when declaring multidimensional arrays,
+        // when declaring multidimensional arrays,
         // the size of first dimension is mandatory
         // while others may be defined later on
 
