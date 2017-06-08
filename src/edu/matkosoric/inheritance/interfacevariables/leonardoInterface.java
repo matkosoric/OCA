@@ -17,4 +17,12 @@ public interface leonardoInterface {
     String inventionNo2 = "Diving Suit";
     String inventionNo3 = "Tank";
     String inventionNo4 = "Helicopter";
+
+    // interface variables and methods can not be private or protected
+//    private writing2 ();        // does not compile
+//    protected inventing2();     // does not compile
+
+//    private String inventionNo5 = "iPhone";         // does not compile
+//    protected String inventionNo6 = "Transistor";   // does not compile
+
 }
