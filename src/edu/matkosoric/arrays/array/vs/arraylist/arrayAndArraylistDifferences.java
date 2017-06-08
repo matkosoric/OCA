@@ -89,6 +89,14 @@ public class arrayAndArraylistDifferences {
 //        interestingBookPageNumbers[5] = 201.54F;      // does not compile
 //        interestingBookPageNumbers[6] = (long)273;      //does not compile
 
+
+
+
+        // 6. array can be multidimensional, while arrayList is always onedimensional
+        String [][] chessFielsArray = new String[8][8];
+//        ArrayList<String, String> chessFieldArrayList = new ArrayList<>();      // does not compile
+
+
     }
 
 }
