@@ -6,7 +6,9 @@ After doing a couple of mockup-exams, I realised that it is necessary to be fami
 
 The examples are not ordered in any way. They are just grouped by similarity (eg. arrays, flowcontrol, lambdas, exceptions, etc.)
 
-One code example is not necessarily designed to explain only one thing; it can ilustrate several syntactic or programming principles of Java language. 
+One code example is not necessarily designed to explain only one thing; it can illustrate several syntactic or programming principles of Java language.
+
+One example is not enough to explain or understand a principle: therefore, code contains seemingly redundant lines of code that nonetheless help in acquiring the pattern behind the particular case.
 
 
 These are the resources that I used to prepare the exam:
