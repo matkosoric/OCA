@@ -8,10 +8,13 @@ package edu.matkosoric.inheritance;
 
 // abstract class can not be marked as final
 
-//public abstract final class abstractOrFinal {}        //does not compile
 
 //either abstract
 abstract class abClass {}
 
 //either final
 final class fClass {}
+
+
+//abstract final class abstractOrFinal {}        //does not compile
+
