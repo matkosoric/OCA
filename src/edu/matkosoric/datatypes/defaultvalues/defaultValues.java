@@ -1,4 +1,4 @@
-package edu.matkosoric.datatypes;
+package edu.matkosoric.datatypes.defaultvalues;
 
 /**
  * Code examples for Oracle Certified Associate (OCA) Exam
