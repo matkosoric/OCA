@@ -93,6 +93,7 @@ public class CheckedOrUnchecked {
             case 8:        throw new ExceptionInInitializerError();
             case 9:        throw new StackOverflowError();
             case 10:       throw new NoClassDefFoundError();
+            case 11:       throw new SecurityException();
         }
 
     }
