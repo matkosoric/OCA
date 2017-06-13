@@ -141,32 +141,43 @@ public class switchDataTypes {
 
         // switch statement does not accept these data types:
         // boolean, float, double, or objects
+/*
 
         // BOOLEAN TYPE
-//        boolean powerOn = true;
-//        switch (powerOn) {                                      // does not compile
-//            case true:  System.out.println("The power is ON!");
-//            case false: System.out.println("The power is OFF!");
-//        }
+        boolean powerOn = true;
+        switch (powerOn) {                                      // does not compile
+            case true:  System.out.println("The power is ON!");
+            case false: System.out.println("The power is OFF!");
+        }
+
+        // LONG TYPE
+        long spaceExplorationEvent = 1957;
+        switch (spaceExplorationEvent) {                    // does not compile
+            case 1957:          System.out.println("Sputnik"); break;
+            case 1969:          System.out.println("First Man on the Moon"); break;
+
+        }
+
 
         // FLOAT TYPE
-//        float PI = 3.14F;
-//        switch (PI) {           //does not compile
-//            case 3.14F:     System.out.println("Pi with two decimal places."); break;
-//            case 3.14159F:   System.out.println("Pi with five decimal places."); break;
-//        }
+        float PI = 3.14F;
+        switch (PI) {           //does not compile
+            case 3.14F:     System.out.println("Pi with two decimal places."); break;
+            case 3.14159F:   System.out.println("Pi with five decimal places."); break;
+        }
 
-//        // OBJECT TYPE
-//
-//        AmericanPresident a = new AmericanPresident(1, "George", "Washington");
-//        AmericanPresident b = new AmericanPresident(16, "Abraham", "Lincoln");
-//        AmericanPresident c = new AmericanPresident(35, "John F.", "Kennedy");
-//
-//        switch (a) {
-//            case b: System.out.println("Lincoln"); break;       // does not compile
-//            case c: System.out.println("Kennedy"); break;       // does not compile
-//            default: System.out.println("Washington");
-//        }
+        // OBJECT TYPE
+
+        AmericanPresident a = new AmericanPresident(1, "George", "Washington");
+        AmericanPresident b = new AmericanPresident(16, "Abraham", "Lincoln");
+        AmericanPresident c = new AmericanPresident(35, "John F.", "Kennedy");
+
+        switch (a) {
+            case b: System.out.println("Lincoln"); break;       // does not compile
+            case c: System.out.println("Kennedy"); break;       // does not compile
+            default: System.out.println("Washington");
+        }
+*/
 
     }
 
