@@ -1,4 +1,4 @@
-package edu.matkosoric.flowcontrol.assignmentwithinif;
+package edu.matkosoric.flowcontrol.assignment.within.ifcondition;
 
 /**
  * Code examples for Oracle Certified Associate (OCA) Exam
@@ -6,7 +6,7 @@ package edu.matkosoric.flowcontrol.assignmentwithinif;
  * Created by Matko Soric.
  */
 
-public class weirdifcondition {
+public class weirdIfCondition {
 
     public static void main(String[] args) {
 
