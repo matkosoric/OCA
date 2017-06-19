@@ -30,10 +30,10 @@ public class testingWithPredicate {
         System.out.println("Can a 56 year old person purchase alcohol? " + drinkingAge.test(56));
 
         Predicate <Integer> votingAge = (age) -> (age > 17);
-        System.out.println("Can a 10 year old person vode? " + votingAge.test(10));
-        System.out.println("Can a 56 year old person vode? " + votingAge.test(56));
+        System.out.println("Can a 10 year old person vote? " + votingAge.test(10));
+        System.out.println("Can a 56 year old person vote? " + votingAge.test(56));
 
-        System.out.println("If you are 10 years old, can you vote while alcoholised? " + drinkingAge.and(votingAge).test(10));
+        System.out.println("If you are 10 years old, can you vote while alcoholized? " + drinkingAge.and(votingAge).test(10));
         System.out.println("If you are 19 years old, can you vote while alcoholised? " + drinkingAge.and(votingAge).test(19));
         System.out.println("If you are 56 years old, can you vote while alcoholised? " + drinkingAge.and(votingAge).test(56));
 
