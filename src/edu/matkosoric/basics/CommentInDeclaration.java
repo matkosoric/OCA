@@ -11,7 +11,7 @@ package edu/*
  * Created by Matko Soric.
  */
 
-public class commentInDeclaration {
+public class CommentInDeclaration {
 
     // multiline comments can be inserted anywhere within a valid code without breaking it
 

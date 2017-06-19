@@ -6,7 +6,7 @@ package edu.matkosoric.basics;
  * Created by Matko Soric.
  */
 
-public class scopeIssue {
+public class ScopeIssue {
 
     public static void main(String[] args) {
 

@@ -6,7 +6,7 @@ package edu.matkosoric.basics;
  * Created by Matko Soric.
  */
 
-public class keywordOrVariable {
+public class KeywordOrVariable {
 
     public static void main(String[] args) {
 

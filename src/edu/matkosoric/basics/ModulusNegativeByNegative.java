@@ -6,7 +6,7 @@ package edu.matkosoric.basics;
  * Created by Matko Soric.
  */
 
-public class modulusNegativeByNegative {
+public class ModulusNegativeByNegative {
 
     public static void main(String[] args) {
 
