@@ -6,7 +6,7 @@ package edu.matkosoric.strings.comparing;
  * Created by Matko Soric.
  */
 
-public class openingMobyDick {
+public class OpeningMobyDick {
 
     public static void main(String[] args) {
 

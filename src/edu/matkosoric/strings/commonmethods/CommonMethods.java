@@ -6,7 +6,7 @@ package edu.matkosoric.strings.commonmethods;
  * Created by Matko Soric.
  */
 
-public class commonMethods {
+public class CommonMethods {
 
     public static void main(String[] args) {
 

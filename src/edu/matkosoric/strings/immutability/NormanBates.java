@@ -6,7 +6,7 @@ package edu.matkosoric.strings.immutability;
  * Created by Matko Soric.
  */
 
-public class normanBates {
+public class NormanBates {
 
     public static void main(String[] args) {
 
