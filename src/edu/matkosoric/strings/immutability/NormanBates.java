@@ -22,7 +22,7 @@ public class NormanBates {
         name.toLowerCase();
         System.out.println(name);
 
-        // proper way to change string
+        // proper way to change a string
         name = name.toUpperCase();
         System.out.println(name);
 

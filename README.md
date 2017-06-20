@@ -20,4 +20,4 @@ These are the resources that I used to prepare the exam:
 
 - <a href="https://www.manning.com/books/oca-java-se-7-programmer-i-certification-guide/">Mala Gupta: OCA Java SE 7 Programmer I Certification Guide</a>
 
-- <a href="http://java.zemris.fer.hr/nastava/opjj/book-2015-09-30.pdf/">Marko Čupić: Programiranje u Javi (Croatian)</a>
+- <a href="http://java.zemris.fer.hr/nastava/opjj/book-2015-09-30.pdf">Marko Čupić: Programiranje u Javi (Croatian)</a>

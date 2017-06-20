@@ -45,11 +45,21 @@ public class KeywordOrVariable {
         */
 
         // these are permitted
-        long _;
-        long $;
-        long _1987623912;
-        long $asdfjhaskl;
-        long a_2$k_9wq8;
+        long _;                 // weird but valid
+        long $;                 // weird but valid
+        long _1987623912;       // weird but valid
+        long $asdfjhaskl;       // weird but valid
+        long a_2$k_9wq8;        // weird but valid
 
+        // special characters such as (, ), [, ], \, /, {, }, ', :, ;, !, @, #, %, ^, &, *,
+        // can not be part of the variable name (identifier)
+/*
+        float decimal/Number;                        // does not compile
+        int b777%;                                   // does not compile
+        boolean ^toBeOrNotToBe;                      // does not compile
+        short ___:2k;                                // does not compile
+        double wordVector%m2;                        // does not compile
+        String boatName@international;               // does not compile
+        */
     }
 }

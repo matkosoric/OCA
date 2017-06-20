@@ -1,4 +1,4 @@
-package edu.matkosoric.methods;
+package edu.matkosoric.methods.returning;
 
 /**
  * Code examples for Oracle Certified Associate (OCA) Exam
@@ -9,8 +9,6 @@ package edu.matkosoric.methods;
 public class returning {
 
     public static void main(String[] args) {
-
-
 
 //        int a = method1();      //does not compile, the compiler 'sees' method1 signature with the void return type
 //        System.out.println(a);

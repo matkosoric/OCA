@@ -1,4 +1,4 @@
-package edu.matkosoric.methods;
+package edu.matkosoric.methods.main.method;
 
 /**
  * Code examples for Oracle Certified Associate (OCA) Exam
@@ -6,7 +6,7 @@ package edu.matkosoric.methods;
  * Created by Matko Soric.
  */
 
-public class mainMethod {
+public class MainMethod {
 
     // original main method
     public static void main(String[] args) {

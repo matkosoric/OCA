@@ -6,12 +6,12 @@ package edu.matkosoric.methods.passingby;
  * Created by Matko Soric.
  */
 
-public class passingby {
+public class PassingBy {
 
     public static void main(String[] args) {
 
-        // this example uses StringBuilder since String class behaves untypically for classical objects in this case
-        // the code illustrates difference between pass-by-reference and pass-by-value principle
+        // This example uses StringBuilder since String class behaves untypically for classical objects in this case.
+        // The code illustrates difference between pass-by-reference and pass-by-value principle
 
         StringBuilder baseName = new StringBuilder("Lord of the Rings");
 
@@ -25,7 +25,7 @@ public class passingby {
 
         int firstPart = 1;
         System.out.println("\nPrimitive types (like int) are passed to methods by value");
-        System.out.println("and therefore unaffected by changes made to method paramteres");
+        System.out.println("and therefore unaffected by changes made to method parameters");
         System.out.println("First: " + firstPart);
         calculateSecondPart(firstPart);
         System.out.println("Second: " + firstPart);
