@@ -5,7 +5,7 @@ package edu/*
 
 */.matkosoric.basics;
 
-/**
+/*
  * Code examples for Oracle Certified Associate (OCA) Exam
  * Java 8 SE, 2017.
  * Created by Matko Soric.
@@ -21,7 +21,7 @@ public class CommentInDeclaration {
         String  /*
 
 
-                                                // weird but valid
+                                                // Weird but valid
 
 
          */batmanAlias = "Batman";
@@ -33,7 +33,7 @@ public class CommentInDeclaration {
     private static void  /*
 
 
-                                                // weird but valid
+                                                // Weird but valid
 
 
 

@@ -15,7 +15,7 @@ public class Kavorka {
         StringBuilder kavorka = new StringBuilder("Kavorka - The Lure of the Animal");
 
         System.out.println(kavorka.delete(10, 19));
-        System.out.println(kavorka.delete(7, 3000));        // weird but valid
+        System.out.println(kavorka.delete(7, 3000));        // Weird but valid
 
         // similar action on a String-type object
         String religion = "Latvian-Orthodox";

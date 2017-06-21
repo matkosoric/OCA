@@ -25,8 +25,8 @@ public class SingleLineInstantiation {
         // this is single-line declaration and initialisation of a String type, that also works with primitives
         String town1, town2, town3, town4 = "any town";
 //    String county1 = county2 = county3;           // does not compile
-        String village1, village2, village3 = village1 = village2 = "any village";          // weird but valid
-        int population1, population2, population3 = population2 = population1 = 200_000;    // weird but valid
+        String village1, village2, village3 = village1 = village2 = "any village";          // Weird but valid
+        int population1, population2, population3 = population2 = population1 = 200_000;    // Weird but valid
 
     }
 }

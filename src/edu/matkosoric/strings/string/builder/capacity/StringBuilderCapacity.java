@@ -36,7 +36,7 @@ public class StringBuilderCapacity {
         System.out.println("New capacity: " + sb4.capacity());
 
         // capacity can be defined even after initialisation with the method ensureCapacity()
-        // the method will not have effect (or produce exception) if called with the value smaller than the current capacity
+        // the method will not have effect (or produce Exception) if called with the value smaller than the current capacity
         sb4.ensureCapacity(100);
         System.out.println("ensure capacity() without effect: " + sb4.capacity());
         sb4.ensureCapacity(300);
