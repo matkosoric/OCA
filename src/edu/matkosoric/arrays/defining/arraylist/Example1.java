@@ -2,12 +2,12 @@ package edu.matkosoric.arrays.defining.arraylist;
 
 import java.util.ArrayList;
 
-/**
+/*
  * Code examples for Oracle Certified Associate (OCA) Exam
  * Java 8 SE, 2017.
  * Created by Matko Soric.
  */
-public class example1 {
+public class Example1 {
 
     public static void main(String[] args) {
 

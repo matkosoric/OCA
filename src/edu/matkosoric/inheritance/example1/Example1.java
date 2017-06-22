@@ -1,6 +1,6 @@
 package edu.matkosoric.inheritance.example1;
 
-/**
+/*
  * Code examples for Oracle Certified Associate (OCA) Exam
  * Java 8 SE, 2017.
  * Created by Matko Soric.
@@ -8,7 +8,7 @@ package edu.matkosoric.inheritance.example1;
 
 // after class name, stating extended class has priority over implementing interface
 // if the order is reversed, the code will not compile, for example
-// class example2 implements greetingInterface extends abClass {
+// class Example2 implements greetingInterface extends abClass {
 //    public void interfaceGreeting1(){}
 //    public void interfaceGreeting2(){}
 //}

@@ -2,13 +2,13 @@ package edu.matkosoric.arrays.array.vs.arraylist;
 
 import java.util.ArrayList;
 
-/**
+/*
  * Code examples for Oracle Certified Associate (OCA) Exam
  * Java 8 SE, 2017.
  * Created by Matko Soric.
  */
 
-public class arrayAndArraylistDifferences {
+public class ArrayAndArraylistDifferences {
 
     public static void main(String[] args) {
 

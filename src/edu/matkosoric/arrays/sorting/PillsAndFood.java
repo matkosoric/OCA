@@ -8,7 +8,7 @@ import java.util.Arrays;
  * Created by Matko Soric.
  */
 
-public class pillsAndFood {
+public class PillsAndFood {
 
     public static void main(String[] args) {
 
