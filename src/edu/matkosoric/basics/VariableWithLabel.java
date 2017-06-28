@@ -1,4 +1,4 @@
-package edu.matkosoric.basics.variable.with;
+package edu.matkosoric.basics;
 
 /*
  * Code examples for Oracle Certified Associate (OCA) Exam
@@ -6,7 +6,7 @@ package edu.matkosoric.basics.variable.with;
  * Created by Matko Soric.
  */
 
-public class label {
+public class VariableWithLabel {
 
     public static void main(String[] args) {
 
