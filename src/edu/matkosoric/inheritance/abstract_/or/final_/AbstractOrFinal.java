@@ -1,4 +1,4 @@
-package edu.matkosoric.inheritance;
+package edu.matkosoric.inheritance.abstract_.or.final_;
 
 /*
  * Code examples for Oracle Certified Associate (OCA) Exam
