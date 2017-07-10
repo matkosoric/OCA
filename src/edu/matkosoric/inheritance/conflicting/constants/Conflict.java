@@ -3,7 +3,8 @@ package edu.matkosoric.inheritance.conflicting.constants;
 import static java.lang.Short.*;
 import static java.lang.Float.*;
 
-import static edu.matkosoric.inheritance.conflicting.constants.alternative.*;
+// COMPILER ERROR - ISPRAVITI
+//import static edu.matkosoric.inheritance.conflicting.constants.alternative.value.*;
 import static java.lang.Double.*;
 /*
  * Code examples for Oracle Certified Associate (OCA) Exam
