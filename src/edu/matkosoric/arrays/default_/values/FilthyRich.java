@@ -10,9 +10,9 @@ public class FilthyRich {
 
     public static void main(String[] args) {
 
-        // array elements are initialised to their default value
-        // they are behaving like static or like instance variables, not like local variables
-        // that have to be explicitly initialised.
+        // array elements are initialised to their default value.
+        // they are behaving like static or like instance variables,
+        // not like local variables that have to be explicitly initialised.
 
         // EXAMPLE NO.1.
         int [] myBankAccounts = new int[5];
