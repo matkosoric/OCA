@@ -12,8 +12,11 @@ public class Exception {
 
     public static void main(String[] args) {
 
+        LocalTime time1 = LocalTime.of(15,59);      // valid statement
+        System.out.println(time1);
 
-
+        LocalTime time2 = LocalTime.of(15,60);      // compiles, but throws a run-time DateTimeException
+        System.out.println(time2);
 
     }
 }
