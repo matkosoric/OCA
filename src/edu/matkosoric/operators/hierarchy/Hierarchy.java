@@ -72,12 +72,11 @@ public class Hierarchy {
  */
 
         // following statements are valid without parentheses
-        //
+        // and the operation execution is determined by this hierarchy.
 
         int i = 5 % + 4 - 3 * 2 + 4 - 8 - 1 + 3 / 4 % 4 + 1 / 2;
         boolean k = 234 <= 271;
-        boolean a = 65 <= 27 ? 53 != 88 || true ^ !!!false & !true && true : !true ^ 6-2*8+3/1 == 82 / 19;
-
+        boolean a = 65 <= 27 ? 53 != 88 || true ^ !!!false & !true && true : !true ^ 6-2*8<<+3/1 == 82 / 19>>2;
 
 
     }

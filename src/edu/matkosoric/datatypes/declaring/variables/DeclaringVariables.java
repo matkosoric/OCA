@@ -21,7 +21,6 @@ public class DeclaringVariables {
         Boolean b8 = new Boolean("Jimmy Hendrix");      // false
 
 
-
         byte byt1 = 127;
         Byte byt2 = 127;
 //        byte byt3 = 128;    //does not compile, value is treated as integer since it is out of scope
@@ -37,7 +36,6 @@ public class DeclaringVariables {
         Byte byte13 = (byte) 128;       //value is out of scope, but is nonetheless transformed to the corresponding value in the other side of scope
 
 
-
         short s1 = 88;
         Short s2 = 88;
 //        short s3 = 88.2;    //does not compile, double has to be casted
@@ -47,7 +45,6 @@ public class DeclaringVariables {
         Short s7 = (short) 88.2;
         short s8 = (short) (int) (float) 88.2;      //output: 88
         short s9 = (short) (byte) (float) 129.2;    //output: -127, due to the (byte) cast
-
 
 
         int i1 = 24;
@@ -60,7 +57,6 @@ public class DeclaringVariables {
 //        Integer i8 = (int) 24.7L;   //does not compile
 
 
-
         long l1 = 772;
 //        long l2 = 772.9;            //does not compile
         long l3 = (long) 772.9;
@@ -71,7 +67,6 @@ public class DeclaringVariables {
         long l8 = Long.MAX_VALUE + 1;
         Long l9 = Long.MAX_VALUE + 1;
         long l10 = Long.MIN_VALUE - 1;
-
 
 
 //        float f1 = 200d;          //does not compile, double value has to be casted to float
@@ -90,12 +85,5 @@ public class DeclaringVariables {
         double d5 = 500l;
         double d6 = 300F;
         Double d7 = (double) (byte) 2.0;
-
-
-
-
-
     }
-
-
 }

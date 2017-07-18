@@ -7,11 +7,11 @@ package edu.matkosoric.arrays.type;
  */
 
 
-public class type {
+public class STDRambo {
 
     public static void main(String[] args) {
 
-        // array is an object, even if it is made out of primitive type varaibles
+        // array is an object, even if it is made out of primitive type variables
 
         String[] STD = new String []{"Genital herpes", "Gonorrhea", "Syphilis", "Chlamydia"};
         System.out.println(STD instanceof Object);

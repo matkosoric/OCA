@@ -6,7 +6,7 @@ package edu.matkosoric.flowcontrol.if_.braces;
  * Created by Matko Soric.
  */
 
-public class Example1 {
+public class BillieJean {
 
     public static void main(String[] args) {
 

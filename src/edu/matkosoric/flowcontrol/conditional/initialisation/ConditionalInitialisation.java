@@ -1,4 +1,4 @@
-package edu.matkosoric.datatypes.conditional.initialisation;
+package edu.matkosoric.flowcontrol.conditional.initialisation;
 
 /*
  * Code examples for Oracle Certified Associate (OCA) Exam
