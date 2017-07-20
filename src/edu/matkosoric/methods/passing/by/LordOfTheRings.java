@@ -6,7 +6,7 @@ package edu.matkosoric.methods.passing.by;
  * Created by Matko Soric.
  */
 
-public class PassingBy {
+public class LordOfTheRings {
 
     public static void main(String[] args) {
 

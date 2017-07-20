@@ -6,11 +6,11 @@ package edu.matkosoric.inheritance.double_.default_;
  * Created by Matko Soric.
  */
 
-public class pain {
+public class Pain {
 
     boolean feelingPain;
 
-    pain (boolean painParameter) {
+    Pain(boolean painParameter) {
         this.feelingPain = painParameter;
     }
 }

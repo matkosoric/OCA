@@ -15,17 +15,24 @@ public class StringPool {
         // which means that all string variables with the same value
         // will refer to the same memory location.
 
-        String monsterOriginal = "Loch Ness Monster";
+        String monster1_Original = "Loch Ness Monster";
         String monster2 = "Loch Ness Monster";
         String monster3 = new String("Loch Ness Monster");
 
         // monsterOriginal and monster2 are referencing the same memory location,
-        // while monster3 has its own, separate existence
-        System.out.println(monsterOriginal == monster2);
-        System.out.println(monsterOriginal == monster3);
+        // while monster3 has its own, separate existence.
+        System.out.println("monster1 = monster2 ? " + (monster1_Original == monster2));
+        System.out.println("monster1 = monster3 ? " + (monster1_Original == monster3));
 
-        // setting the monsterOriginal value to null will not affect the monster2 reference
-        monsterOriginal = null;
+        // but given the identical value, their hash will be the same,
+        // since String class overrides hashCode() to content comparison, not memory location
+        System.out.println("\n" + "Monster1 hash: " + monster1_Original.hashCode());
+        System.out.println("Monster2 hash: " + monster2.hashCode());
+        System.out.println("Monster3 hash: " + monster3.hashCode());
+
+        // changing the monster1_Original value will not affect the monster2 reference.
+        // a new string will be added to the string pool, linked with monster1_original identifier
+        monster1_Original = "Godzilla";
         System.out.println("\n" + monster2);
 
     }

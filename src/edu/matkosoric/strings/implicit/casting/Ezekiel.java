@@ -20,8 +20,8 @@ public class Ezekiel {
         System.out.println(book + " " + (chapter + verse));
 
         // and more straightforward example
-        System.out.println(6 + 6 + 6 + " execution undisturbed by string type");
-        System.out.println("execution disturbed by string type: " + 6 + 6 + 6);
+        System.out.println(6 + 6 + 6 + " execution unfettered by a string variable");
+        System.out.println("execution disturbed with string variable: " + 6 + 6 + 6);
 
     }
 }
