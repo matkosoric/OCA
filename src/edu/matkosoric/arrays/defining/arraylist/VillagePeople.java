@@ -7,7 +7,7 @@ import java.util.ArrayList;
  * Java 8 SE, 2017.
  * Created by Matko Soric.
  */
-public class Example1 {
+public class VillagePeople {
 
     public static void main(String[] args) {
 
@@ -18,28 +18,28 @@ public class Example1 {
 
         // this part of code specifies Integer wrapper as a type of ArrayList elements
         // the list will accept only Integers
-        ArrayList<Integer> listFirst = new ArrayList();
-        listFirst.add(41);
-        listFirst.add(42);
-        listFirst.add(43);
-        listFirst.add(44);
+        ArrayList<Integer> villagePeoplePeakChardPosition = new ArrayList();
+        villagePeoplePeakChardPosition.add(3);
+        villagePeoplePeakChardPosition.add(8);
+        villagePeoplePeakChardPosition.add(24);
+        villagePeoplePeakChardPosition.add(32);
 //        listFirst.add(true);  //does not compile
-        System.out.println(listFirst);
-        System.out.println(listFirst.get(1) instanceof Integer);
+        System.out.println(villagePeoplePeakChardPosition);
+        System.out.println(villagePeoplePeakChardPosition.get(1) instanceof Integer);
 
         // the following code does not declare explicitly
         // a data type for the elements of ArrayList.
         // They are implicitly turned to a wrapper class.
         // Also, there is no limitation for the acceptance of different types
-        ArrayList listSecond = new ArrayList();
-        listSecond.add('a');
-        listSecond.add('b');
-        listSecond.add('c');
-        listSecond.add('d');
-        listSecond.add(true);   //this will compile
-        System.out.println(listSecond);
-        System.out.println(listSecond.get(1) instanceof Character);
-        System.out.println(listSecond.get(4) instanceof Boolean);
+        ArrayList villagePeopleSong = new ArrayList();
+        villagePeopleSong.add('Y');
+        villagePeopleSong.add('M');
+        villagePeopleSong.add('C');
+        villagePeopleSong.add('A');
+        villagePeopleSong.add(true);   //this will compile
+        System.out.println(villagePeopleSong);
+        System.out.println(villagePeopleSong.get(1) instanceof Character);
+        System.out.println(villagePeopleSong.get(4) instanceof Boolean);
 
     }
 
