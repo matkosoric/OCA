@@ -29,8 +29,8 @@ public class VariableWithLabel {
         {
 
             INNERLABEL:
-//            System.out.println("third begining");       // if left uncommented, this line will produce compile-time error
-                                                          // since it has to be located right before the loop
+//            System.out.println("third beginning");       // if left uncommented, this line will produce compile-time error
+                                                           // since it has to be located right before the loop
             do {
                 k++;
                 System.out.println("k: " + k);

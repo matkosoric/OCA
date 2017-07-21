@@ -27,7 +27,7 @@ public class InvisibleMan extends InvisibilityPerSe {
         System.out.println(InvisibilityPerSe.releaseYear1);
         System.out.println(InvisibilityPerSe.name2);
         System.out.println(InvisibilityPerSe.releaseYear2);
-        System.out.println(name3);
+        System.out.println(InvisibilityPerSe.name3);
         System.out.println(InvisibilityPerSe.releaseYear3 + "\n");
 
         // reading static variables in this class

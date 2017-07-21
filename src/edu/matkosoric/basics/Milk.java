@@ -6,7 +6,9 @@ package edu.matkosoric.basics;
  * Created by Matko Soric.
  */
 
-public class ScopeIssue2 {
+public class Milk {
+
+    // simple scope issue in if-else statement
 
     public static void main(String[] args) {
 

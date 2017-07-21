@@ -6,7 +6,9 @@ package edu.matkosoric.basics;
  * Created by Matko Soric.
  */
 
-public class ScopeIssue3 {
+public class DoubleDare {
+
+    // simple out of scope issue in a for loop and in a nested for loop
 
     public static void main(String[] args) {
 

@@ -6,11 +6,13 @@ package edu.matkosoric.basics;
  * Created by Matko Soric.
  */
 
-public class ScopeIssue {
+public class Marathon {
+
+    // simple scope issue in do-while loop
 
     public static void main(String[] args) {
 
-        int marathonLength = 40;
+        int marathonLength = 42;
 
         // this seems like a simple infinite loop, but in fact it is a scope issue
         // variables declared within do block are out of scope in the while condition
