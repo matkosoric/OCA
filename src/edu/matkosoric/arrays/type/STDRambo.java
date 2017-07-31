@@ -6,7 +6,6 @@ package edu.matkosoric.arrays.type;
  * Created by Matko Soric.
  */
 
-
 public class STDRambo {
 
     public static void main(String[] args) {

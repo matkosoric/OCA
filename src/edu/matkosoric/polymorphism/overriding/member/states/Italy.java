@@ -6,5 +6,16 @@ package edu.matkosoric.polymorphism.overriding.member.states;
  * Created by Matko Soric.
  */
 
-public class Italy {
+import edu.matkosoric.polymorphism.overriding.EuropeanUnion;
+
+public class Italy extends EuropeanUnion{
+
+    public String capitalCity = "Rome";
+    public double GDP_per_capita = 30.165;
+    public static String officialLanguage = "Italian";
+
+    public void outputCapitalCity () {
+        System.out.println("Capital city of Italy: " + capitalCity);
+    }
+
 }

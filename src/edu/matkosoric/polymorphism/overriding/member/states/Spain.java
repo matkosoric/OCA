@@ -6,5 +6,13 @@ package edu.matkosoric.polymorphism.overriding.member.states;
  * Created by Matko Soric.
  */
 
-public class Spain {
+import edu.matkosoric.polymorphism.overriding.EuropeanUnion;
+
+public class Spain extends EuropeanUnion{
+
+    public String capitalCity = "Madrid";
+    protected static String officialLanguage = "Spanish";
+    double GDP_per_capita = 38.239;         // default access modifier
+    private String sanFerminLocation = "Pamplona";
+
 }

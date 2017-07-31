@@ -6,5 +6,7 @@ package edu.matkosoric.polymorphism.overriding.member.states;
  * Created by Matko Soric.
  */
 
-public class Lithuania {
+import edu.matkosoric.polymorphism.overriding.EuropeanUnion;
+
+public class Lithuania extends EuropeanUnion {
 }

@@ -37,7 +37,7 @@ public class HumanBody extends Skin{
         System.out.println("Human body constructor");
     }
 
-    // static initialisation block - initialisation block for Skin class
+    // static initialisation block - initialisation block for HumanBody class
     static {System.out.println("...loading HumanBody.class..."); }
 }
 

@@ -15,7 +15,7 @@ public class PoliceDog {
         this.name = name;
     }
 
-    // overridden method must return either the same data type, or it's subclass
+    // overloaded method must return either the same data type, or it's subclass
 
     public static void main(String[] args) {
 
@@ -33,7 +33,7 @@ public class PoliceDog {
             System.out.println("Buster found: " + buster.sniffingBaggage("drug smuggler").substanceName);
         }
 
-        // calling first overridden method
+        // calling first overloaded method
         if (buster.sniffingBaggage(222) != null) {
             System.out.println("Buster found: " + buster.sniffingBaggage(222).substanceName);
         }
@@ -42,7 +42,7 @@ public class PoliceDog {
         }
 
 
-        // calling second overridden method
+        // calling second overloaded method
         if (buster.sniffingBaggage(false) != null) {
             System.out.println("Buster found: " + buster.sniffingBaggage(false).substanceName);
         }
@@ -51,7 +51,7 @@ public class PoliceDog {
         }
 
 
-        // calling third overridden method
+        // calling third overloaded method
         if (buster.sniffingBaggage("John Doe", "Retail Store") != null) {
             System.out.println("Buster found: " + buster.sniffingBaggage("John Doe", "Retail Store").substanceName);
         }
@@ -78,20 +78,20 @@ public class PoliceDog {
         else return null;
     }
 
-    // 1st overridden method
+    // 1st overloaded method
     public Heroin sniffingBaggage (int baggageID) {
         if (baggageID == 453)
             return new Heroin();
         else return null;
     }
 
-    // 2st overridden method
+    // 2st overloaded method
     public Methamphetamine sniffingBaggage (boolean evidence) {
         if (evidence == true)
             return new Methamphetamine();
         else return null;
     }
-    // 3rd overridden method
+    // 3rd overloaded method
     public Cocain sniffingBaggage (String baggageOwner, String workingLocation) {
         if (workingLocation == "Wall Street")
             return new Cocain();

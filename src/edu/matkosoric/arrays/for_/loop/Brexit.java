@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
 
-public class ForLoop {
+public class Brexit {
 
     public static void main(String[] args) {
 
@@ -41,10 +41,10 @@ public class ForLoop {
         listOfEUCountryes = new ArrayList<>(Arrays.asList(EUList));
 
         // enhanced for loop - throws java.util.ConcurrentModificationException
-//        for (String particularCountry : listOfEUCountryes) {
-//            if (particularCountry == "Denmark") listOfEUCountryes.remove(particularCountry);
+//        for (String particularCountry : listOfEUCountries) {
+//            if (particularCountry == "Denmark") listOfEUCountries.remove(particularCountry);
 //        }
-//        System.out.println(listOfEUCountryes.size() + "  " + listOfEUCountryes);
+//        System.out.println(listOfEUCountries.size() + "  " + listOfEUCountries);
 
 
         // restarting arraylist
