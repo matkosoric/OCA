@@ -1,8 +1,11 @@
 package edu.matkosoric.basics;
 
-/**
- * Created by matko on 21.7.2017..
+/*
+ * Code examples for Oracle Certified Associate (OCA) Exam
+ * Java 8 SE, 2017.
+ * Created by © Matko Soric.
  */
+
 public class ComparingPrimitives {
 
     // primitive integer types and decimals can be compared with == operator.

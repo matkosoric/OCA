@@ -1,9 +1,9 @@
-package edu.matkosoric.inheritance;
+package edu.matkosoric.inheritance.interface_.keywords;
 
 /*
  * Code examples for Oracle Certified Associate (OCA) Exam
  * Java 8 SE, 2017.
- * Created by Matko Soric.
+ * Created by © Matko Soric.
  */
 
 public interface NotASingleLineCompiled {
