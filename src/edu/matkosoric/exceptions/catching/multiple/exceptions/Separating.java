@@ -41,7 +41,26 @@ public class Separating {
 //        }
 
 
+        // invalid catch
+        // in ma multi-catch statement, exceptions have to be ordered from most specific to the most general.
+        // otherwise, reversed order would made specific catch blocks unreachable, ad therefore redundant.
 
+        try{
+            throw new ClassNotFoundException();
+        } catch (Exception e) {
+            System.out.println("Exception catched!");
+//        } catch (ClassNotFoundException e2) {                 // does not compile
+//            System.out.println("Exception catched!");
+        }
+
+        // this will compile with reversed order of catch blocks
+        try{
+            throw new ClassNotFoundException();
+        } catch (ClassNotFoundException e2) {
+            System.out.println("Exception catched!");
+        } catch (Exception e) {
+            System.out.println("Exception catched!");
+        }
     }
 
 
