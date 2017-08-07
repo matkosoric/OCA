@@ -1,4 +1,4 @@
-package edu.matkosoric.methods.Covariant.return_;
+package edu.matkosoric.methods.covariant.return_;
 
 /*
  * Code examples for Oracle Certified Associate (OCA) Exam

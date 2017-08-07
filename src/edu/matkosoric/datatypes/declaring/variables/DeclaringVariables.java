@@ -34,6 +34,8 @@ public class DeclaringVariables {
 //        Byte byt11 = Byte.MAX_VALUE + 1;            //does not compile, value is treated as integer since it is out of scope
 //        Byte byte12 = (byte) Byte.MAX_VALUE + 1;    //does not compile, value is treated as integer since it is out of scope
         Byte byte13 = (byte) 128;       //value is out of scope, but is nonetheless transformed to the corresponding value in the other side of scope
+//        byte byte14 = 0xFF;         // does not compile, value of hexadecimal literal is out of range
+        byte byte15 = (byte) 0xFF;
 
 
         short s1 = 88;
@@ -45,6 +47,23 @@ public class DeclaringVariables {
         Short s7 = (short) 88.2;
         short s8 = (short) (int) (float) 88.2;      //output: 88
         short s9 = (short) (byte) (float) 129.2;    //output: -127, due to the (byte) cast
+//        Short s10 = new Short(10);              // does not compile, argument is int
+        Short s11 = new Short ((short)10);
+        Short s12 = new Short ((byte)10);
+//        Short s13 = new Short ((Short)10);          // does not compile, wrapper can not be used for casting
+
+
+
+        char c1 = 'h';
+        char c2 = 85;
+//        char c3 = 84l;          // does not compile
+        char c4 = (int) 84L;
+        char c5 = (short) 84L;
+//        char c6 = (double) 84L;     // does not compile
+        char c7 = (byte)(double) 84L;
+//        char c8 = (Byte) 35;        // does not compile, wrapper can not be used for casting
+//        char c9 = "h";              // does not compile, single quotes needed
+
 
 
         int i1 = 24;
@@ -67,15 +86,7 @@ public class DeclaringVariables {
         long l8 = Long.MAX_VALUE + 1;
         Long l9 = Long.MAX_VALUE + 1;
         long l10 = Long.MIN_VALUE - 1;
-
-
-//        float f1 = 200d;          //does not compile, double value has to be casted to float
-        float f2 = (float) 200d;
-//        float f3 = 200.7;         //does not compile, default type of decimal value is double
-        float f4 = (float) 200.7;
-//        Float f5 = (Float) 200.7; //does not compile, wrapper can not be used for casting
-//        Float f6 = 200L;        //does not compile, long value has to be casted to float
-        Float f7 = (float) 200L;
+        long l11 = 015;             // octal literal does not require L at the end
 
 
         double d1 = 10;
@@ -85,5 +96,18 @@ public class DeclaringVariables {
         double d5 = 500l;
         double d6 = 300F;
         Double d7 = (double) (byte) 2.0;
+
+
+//        float f1 = 200d;          //does not compile, double value has to be casted to float
+        float f2 = (float) 200d;
+//        float f3 = 200.7;         //does not compile, default type of decimal value is double
+        float f4 = (float) 200.7;
+//        Float f5 = (Float) 200.7; //does not compile, wrapper can not be used for casting
+//        Float f6 = 200L;        //does not compile, long value has to be casted to float
+        Float f7 = (float) 200L;
+        float f8 = -7;                // int is implicitly widened to float
+//        float f9 = -7.0;            // does not compile, double can not be implicitly widened to float
+//        float f10 = 6129234123;     // does not compile, out of scope for the integer typ
+//        float f11 = 4e8;            // does not compile, double value
     }
 }
