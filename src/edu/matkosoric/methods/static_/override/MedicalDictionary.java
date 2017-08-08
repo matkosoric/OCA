@@ -9,7 +9,7 @@ package edu.matkosoric.methods.static_.override;
 public class MedicalDictionary extends Dictionary{
 
     // this method >hides< inherited static method from the superclass,
-    // since static methods can not be overrided.
+    // since static methods can not be overridden.
     public static void printTypeOfContent () {
         System.out.println("Content: Medical notions.");
     }

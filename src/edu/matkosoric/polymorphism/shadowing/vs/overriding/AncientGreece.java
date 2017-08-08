@@ -32,7 +32,7 @@ class RomanEmpire extends AncientGreece{
 
         // in this case, officialLanguage variable remains the same
         System.out.println(b.officialLanguage);
-        System.out.println(b.getLargestCityName()+ "\n");           // method is overriden
+        System.out.println(b.getLargestCityName()+ "\n");           // method is overridden
 
         // everything works fine
         System.out.println(c.officialLanguage);
