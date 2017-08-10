@@ -6,7 +6,7 @@ package edu.matkosoric.strings.string_.pool;
  * Created by © Matko Soric.
  */
 
-public class StringPool {
+public class Monsters {
 
     public static void main(String[] args) {
 

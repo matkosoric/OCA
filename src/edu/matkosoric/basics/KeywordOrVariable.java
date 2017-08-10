@@ -45,11 +45,12 @@ public class KeywordOrVariable {
         */
 
         // these are permitted
-        long _;                 // Weird but valid
-        long $;                 // Weird but valid
-        long _1987623912;       // Weird but valid
-        long $asdfjhaskl;       // Weird but valid
-        long a_2$k_9wq8;        // Weird but valid
+        long _;                 // weird but valid
+        long $;                 // weird but valid
+        long _1987623912;       // weird but valid
+        long $asdfjhaskl;       // weird but valid
+        long a_2$k_9wq8;        // weird but valid
+        long String;            // weird but valid
 
         // special characters such as (, ), [, ], \, /, {, }, ', :, ;, !, @, #, %, ^, &, *,
         // can not be part of the variable name (identifier)

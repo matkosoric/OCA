@@ -1,4 +1,4 @@
-package edu.matkosoric.strings.kavorka;
+package edu.matkosoric.strings.string.builder.delete;
 
 /*
  * Code examples for Oracle Certified Associate (OCA) Exam

@@ -8,9 +8,9 @@ package edu.matkosoric.inheritance.accessors.commonwealth;
 
 public class UnitedKingdom {
 
-    public String citizenship = "British citizen";
-    protected String currency = "Pound";
-    String queen = "Elisabeth II";
-    private String capitalCity = "London";
+    public String citizenship = "British citizen";          // available to every class, everywhere
+    protected String currency = "Pound";                    // available to classes in the same package (both child and unrelated not), and to child classes in different packages
+    String queen = "Elisabeth II";                          // available to classes in the same package (both child and unrelated)
+    private String capitalCity = "London";                  // available only within UnitedKingdom class
 
 }

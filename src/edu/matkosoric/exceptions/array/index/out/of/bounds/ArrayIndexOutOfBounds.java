@@ -11,9 +11,9 @@ public class ArrayIndexOutOfBounds {
 
     public static void main(String[] args) {
 
-        // ArrayIndexOutOfBoundsException due to the unnecessary equals sign (=) in the second for loop
-        // Exception might be thrown before the output
-        char[] a = new char[]{'a', 'b', 'c', 'd'};
+        // ArrayIndexOutOfBoundsException due to the unnecessary equals sign (=) in the second for loop.
+        // Exception might be thrown before the output.
+        char[] a = new char[]{'h', 'u', 'l', 'k'};
 
         for (int i = 0; i < a.length; i++) {
             System.out.println(a[i]);

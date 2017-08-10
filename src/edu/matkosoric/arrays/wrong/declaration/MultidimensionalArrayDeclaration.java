@@ -1,11 +1,11 @@
-package edu.matkosoric.arrays.multidimensionalArray;
+package edu.matkosoric.arrays.wrong.declaration;
 
 /*
  * Code examples for Oracle Certified Associate (OCA) Exam
  * Java 8 SE, 2017.
  * Created by © Matko Soric.
  */
-public class Example2 {
+public class MultidimensionalArrayDeclaration {
 
     public static void main(String[] args) {
 
@@ -29,8 +29,6 @@ public class Example2 {
 //        int [][][] integerArrayIncorrect2 = new int[][4][];   //does not compile
 //        int [][][] integerArrayIncorrect3 = new int[][][9];   //does not compile
 //        int [][][] integerArrayIncorrect4 = new int[][7][5];   //does not compile
-
-
 
     }
 }
