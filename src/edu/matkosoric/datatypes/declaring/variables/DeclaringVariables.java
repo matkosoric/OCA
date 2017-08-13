@@ -56,14 +56,14 @@ public class DeclaringVariables {
 
         char c1 = 'h';
         char c2 = 85;
-//        char c3 = 84l;          // does not compile
+//        char c3 = 84l;              // does not compile
         char c4 = (int) 84L;
         char c5 = (short) 84L;
 //        char c6 = (double) 84L;     // does not compile
         char c7 = (byte)(double) 84L;
 //        char c8 = (Byte) 35;        // does not compile, wrapper can not be used for casting
 //        char c9 = "h";              // does not compile, single quotes needed
-
+//        char c10 = -4;              // does not compile, can not be negative value
 
 
         int i1 = 24;

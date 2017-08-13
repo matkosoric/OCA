@@ -8,7 +8,8 @@ package edu.matkosoric.methods.final_.override;
 
 public class TravelingHome {
 
-    //overloaded method can be final
+    //overloading method can be final,
+    // even if original (overloaded) method is not
 
     public static void main(String[] args) {
 
@@ -24,6 +25,6 @@ public class TravelingHome {
     public static void travelHome (String meansOfTransportation) {}
     public static void travelHome (String meansOfTransportation1, String meansOfTransportation2) {}
 //    public static final void travelHome ();     // does not compile, conflict with first method
-    public static final void travelHome (int milesToTravel) {};
+    public static final void travelHome (int milesToTravel) {}
 
 }

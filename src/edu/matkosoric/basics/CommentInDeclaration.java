@@ -21,7 +21,7 @@ public class CommentInDeclaration {
         String  /*
 
 
-                                                // Weird but valid
+                                                // weird but valid
 
 
          */batmanAlias = "Batman";
@@ -33,7 +33,7 @@ public class CommentInDeclaration {
     private static void  /*
 
 
-                                                // Weird but valid
+                                                // weird but valid
 
 
 

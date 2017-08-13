@@ -1,4 +1,4 @@
-package edu.matkosoric.inheritance.number.seven.package_;
+package edu.matkosoric.inheritance.nesting;
 
 /*
  * Code examples for Oracle Certified Associate (OCA) Exam

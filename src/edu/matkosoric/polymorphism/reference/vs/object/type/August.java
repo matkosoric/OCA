@@ -8,7 +8,9 @@ package edu.matkosoric.polymorphism.reference.vs.object.type;
 
 public class August extends Summer{
 
-    // reference type determines what methods can be called on the instance
+    // reference type determines what methods can be called on the instance,
+    // while polymorphism states that overridden methods
+    // should be called in accordance with object type
 
     public static void main(String[] args) {
 
@@ -19,6 +21,10 @@ public class August extends Summer{
         Summer year2017 = new August();
         year2017.goingToTheBeach();
 //        year2017.swimming();            // does not compile
+
+        Summer year2018 = new Summer();
+        year2018.goingToTheBeach();
+//        year2018.swimming();            // does not compile
     }
 
 

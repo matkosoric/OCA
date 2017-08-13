@@ -9,6 +9,6 @@ public interface Snow {
 
     void badWeather();
 
-    double amountOf = 0;
+    double amountOf = 4;
 
 }

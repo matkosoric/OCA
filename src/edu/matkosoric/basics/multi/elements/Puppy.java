@@ -1,4 +1,4 @@
-package edu.matkosoric.basics;
+package edu.matkosoric.basics.multi.elements;
 
 /*
  * Code examples for Oracle Certified Associate (OCA) Exam

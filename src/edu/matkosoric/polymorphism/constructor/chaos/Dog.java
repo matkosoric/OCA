@@ -19,11 +19,10 @@ public class Dog extends Wolf{
         megan.barking();
 
         Wolf alpha = new Wolf();
-            alpha.barking();
+        alpha.barking();
 
         Wolf omega = new Dog();
         omega.barking();
-
 
     }
 

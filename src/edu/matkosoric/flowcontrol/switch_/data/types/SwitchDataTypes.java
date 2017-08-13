@@ -6,6 +6,8 @@ package edu.matkosoric.flowcontrol.switch_.data.types;
  * Created by © Matko Soric.
  */
 
+import edu.matkosoric.datatypes.default_.values.Char;
+
 public class SwitchDataTypes {
 
     public static void main(String[] args) {
@@ -13,7 +15,7 @@ public class SwitchDataTypes {
         // switch statement accepts these data types:
         // byte, short, integer, char,
         // their wrappers (Byte, Short, Integer and Character),
-        // String, and enums.
+        // String (since java 7), and enums.
 
 
         // BYTE TYPE
@@ -155,7 +157,6 @@ public class SwitchDataTypes {
         switch (spaceExplorationEvent) {                    // does not compile
             case 1957:          System.out.println("Sputnik"); break;
             case 1969:          System.out.println("First Man on the Moon"); break;
-
         }
 
 
@@ -179,6 +180,42 @@ public class SwitchDataTypes {
         }
 */
 
-    }
 
+        // compilation errors may emerge from incompatible values in allowed data types
+
+        // char type can not be negative.
+        char agent = 'x';
+        switch (agent) {
+            case 100: ;
+//            case -1:        System.out.println("-1");       // does not compile
+            default:        System.out.println("default");
+        }
+
+        byte lifeExpectancy = 80;
+        switch (lifeExpectancy) {
+//            case 4000:      System.out.println("too long!");            // does not compile
+//            case 300:       System.out.println("too long!");            // does not compile
+//            case 128:       System.out.println("still to long");        // does not compile
+            case 127:         System.out.println("It's a deal!");
+        }
+
+        short cityPopulation = 30000;
+        switch (cityPopulation) {
+            case 31000:;
+            case 32767:;
+//            case 32768:;        // does not compile, value out of range
+//            case 100_000:;      // does not compile, value out of range
+        }
+
+        char sign = 'g';
+        switch (sign) {
+            case 'a':   System.out.println("a");
+            case '7':   System.out.println("7");
+            case 445:   System.out.println("a");
+            case 65535: System.out.println("maximum value");
+//            case 65536: System.out.println("error");            // does not compile, value out of range
+//            case -49:   System.out.println("error");            // does not compile, value out of range, char can not have negative value
+        }
+
+    }
 }
