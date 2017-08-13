@@ -10,6 +10,7 @@ import edu.matkosoric.methods.overriding.returning.Battle;
 
 public class ConflictLocal extends Conflict{
 
+    // Battle as a covariant return type of War can be a proper return type in overriding method
     public Battle initiateAttack () {
         return new Battle();
     }

@@ -9,6 +9,7 @@ package edu.matkosoric.flowcontrol.break_;
 public class BreakingBad {
 
     // labeled break statement does not have to be in a while, do, for or switch statement
+    // to use a labeled break statement it is enough to label a block of code.
 
     public static void main(String[] args) {
 
@@ -21,7 +22,7 @@ public class BreakingBad {
             System.out.println("unreachable");
         }
 
-        System.out.println("Bad is broken!");
+        System.out.println("Bad has been broken!");
 
     }
 }

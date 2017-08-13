@@ -21,5 +21,7 @@ public class ApocalypseNow {
         an.setLength(40);
         System.out.println(an.length() + ": " + an);
 
+//        an.setLength(-40);      // compiles, but throws a runtime StringIndexOutOfBoundsException
+
     }
 }

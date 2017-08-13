@@ -47,7 +47,7 @@ public class Casting {
         int i1 = 72;
 //        int i2 = 72.3;      // does not compile
         int i3 = (int)72.3;
-
+//        int i4 = 72L;       // does not compile
 
         // CHAR
         char c1 = 4;
@@ -55,7 +55,7 @@ public class Casting {
         short x1 = 78;
 //        char c2 = x1;         // does not compile
         short x2 = 78;
-        char c3 = (char)x2;
+        char c3 = (char)x2;     // short has to be explicitly casted to char
 
 
         // FLOAT
