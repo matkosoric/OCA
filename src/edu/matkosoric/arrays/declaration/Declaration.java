@@ -29,5 +29,8 @@ public class Declaration {
         int [][] integerArray9 = new int[][] {integerArray8, integerArray8, integerArray8, {4,4,4}};
         int [][][] integerArray10 = new int[][][] {integerArray9};
 
+        int [][] integerArray11 = new int [2][5];
+//        integerArray11 [0] = {3,3,3,3,3};       // does not compile, initialisation can be done only during declaration
+
     }
 }
