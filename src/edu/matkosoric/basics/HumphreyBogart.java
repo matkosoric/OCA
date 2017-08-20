@@ -7,8 +7,8 @@ package edu.matkosoric.basics;
 
 public class HumphreyBogart {
 
-    // for is java keyword and can not be used as a label
-    // on the other hand, FOR is not a java keyword and can be used instead
+    // 'for' is java keyword and can not be used as a label
+    // on the other hand, 'FOR' is not a java keyword and can be used instead
 
     public static void main(String[] args) {
 
@@ -18,7 +18,6 @@ public class HumphreyBogart {
 //                        System.out.print(c);
 //                        if (c == 'p') break for;
 //                        }
-
 
     }
 
