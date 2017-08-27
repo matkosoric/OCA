@@ -14,7 +14,7 @@ public class Confusing {
         byte b = a--;
         byte c = ++b;
 
-        System.out.println("a: " + a + " b: " + b + " c: " + c);
+        System.out.println("a: " + a + ", b: " + b + ", c: " + c);
 
     }
 }

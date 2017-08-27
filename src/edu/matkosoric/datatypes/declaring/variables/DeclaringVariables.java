@@ -76,7 +76,7 @@ public class DeclaringVariables {
 //        Integer i8 = (int) 24.7L;   //does not compile
 
 
-        long l1 = 772;
+        long l1 = 772;                  // implicit casting from integer to long, 'l' suffix not required
 //        long l2 = 772.9;            //does not compile
         long l3 = (long) 772.9;
 //        Long l4 = 772.9;            //does not compile
@@ -87,7 +87,9 @@ public class DeclaringVariables {
         Long l9 = Long.MAX_VALUE + 1;
         long l10 = Long.MIN_VALUE - 1;
         long l11 = 015;             // octal literal does not require L at the end
-
+        long l12 = 2_147_483_647;   // maximum integer, compiles fine
+//        long l13 = 2_147_483_648;   // out of integer scope, does not compile
+        long l13 = 2_147_483_648L;      // long literal, compiles fine
 
         double d1 = 10;
 //        Double d2 = 10;           //does not compile, value is integer

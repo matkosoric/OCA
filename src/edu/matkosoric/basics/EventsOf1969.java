@@ -27,7 +27,7 @@ public class EventsOf1969 {
 
         // 4. invalid
         int moonLanding4 = 0, easyRiderRelease4 = 0;
-//        int woodstock4 = jackKerouacDeath4 = moonLanding4 = 1969;       // does not compile, jackKerouacDeath
+//        int woodstock4 = jackKerouacDeath4 = moonLanding4 = 1969;       // does not compile, jackKerouacDeath4 produces error
 
         // 5. valid
         int moonLanding5, easyRiderRelease5, woodstock5, jackKerouacDeath5;
