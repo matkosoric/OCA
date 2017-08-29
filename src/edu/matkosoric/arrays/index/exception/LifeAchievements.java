@@ -17,7 +17,7 @@ public class LifeAchievements {
 
         List<String> lifeAchievements = new ArrayList<>();
         lifeAchievements.add("being born");
-        String firstAchievement = lifeAchievements.get(1);          // compiles, but throws a run-time IndexOutOfBoundsException
+        String firstAchievement = lifeAchievements.get(1);          // compiles, but throws a runtime IndexOutOfBoundsException
         System.out.println(firstAchievement);
 
     }

@@ -24,17 +24,17 @@ public class Execution2 {
 //        c1 = a;           // compiles fine and does not produce any runtime exception,
                             // but affects following statements.
 
-//        c1 = (EuroAsia)a;     // compiles, but throws a run-time ClassCastException
+//        c1 = (EuroAsia)a;     // compiles, but throws a runtime ClassCastException
 
 //        c2 = a;         // does not compile.
                           // reference type of c2 (EuroAsia) is subclass of reference type of a (Pangaea)
-//        c2 = (EuroAsia)a;   // compiles, but throws a run-time ClassCastException
+//        c2 = (EuroAsia)a;   // compiles, but throws a runtime ClassCastException
 
 
 
         a = c1;                 // variable c1 has Pangaea as its reference type.
 
-//        a = (EuroAsia)c1;       // compiles, but throws a run-time ClassCastException
+//        a = (EuroAsia)c1;       // compiles, but throws a runtime ClassCastException
 
         a = (Pangaea)c1;            // redundant casting
 

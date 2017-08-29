@@ -1,4 +1,4 @@
-package edu.matkosoric.inheritance.example1;
+package edu.matkosoric.inheritance.extending.and.implementing;
 
 /*
  * Code examples for Oracle Certified Associate (OCA) Exam
@@ -13,7 +13,7 @@ package edu.matkosoric.inheritance.example1;
 //    public void interfaceGreeting2(){}
 //}
 
-public class Example1 extends abClass implements greetingInterface  {
+public class Greeting extends abClass implements greetingInterface  {
 
     // here is an implementation of interfaceGreetings
     // third method does not have to be implemented, since it is defined in the interface itself
@@ -30,7 +30,7 @@ public class Example1 extends abClass implements greetingInterface  {
 
     public static void main(String[] args) {
 
-        Example1 a = new Example1();
+        Greeting a = new Greeting();
         a.interfaceGreeting1();
         a.interfaceGreeting2();
         a.interfaceGreeting3();

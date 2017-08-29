@@ -26,21 +26,21 @@ public class Execution {
 
 
         // object 'a' can not be down casted, since its object type is Pangaea
-//        Africa temp1 = (Africa)a;       // compiles, but throws a run-time ClassCastException
-//        EuroAsia temp2 = (EuroAsia)a;   // compiles, but throws a run-time ClassCastException
-//        Asia temp3 = (Asia)a;           // compiles, but throws a run-time ClassCastException
+//        Africa temp1 = (Africa)a;       // compiles, but throws a runtime ClassCastException
+//        EuroAsia temp2 = (EuroAsia)a;   // compiles, but throws a runtime ClassCastException
+//        Asia temp3 = (Asia)a;           // compiles, but throws a runtime ClassCastException
 
         b1 = a;     // after this, variable b1 changes its targeted object from
                     // Africa object type to the object of Pangaea object type.
                     // reference type (Pangaea) remains unaffected.
 
-//        b1 = (Africa)a;     // compiles, but throws a run-time ClassCastException
+//        b1 = (Africa)a;     // compiles, but throws a runtime ClassCastException
 //        b2 = a;             // does not compile, incompatible types.
                               // b2 is Africa as a reference type, but since Africa extends Pangaea,
                               // object 'a' (of Pangaea type) can be down casted to Africa during compilation.
                               // however, during runtime, there will be a ClassCastException, since
                               // variable 'a' can not change its reference type.
-//        b2 = (Africa) a;    // compiles, but throws a run-time ClassCastException
+//        b2 = (Africa) a;    // compiles, but throws a runtime ClassCastException
 
         // variable b1 already has Pangaea as a reference type
         // while variable b2 gets up-casted to the Pangaea domain.

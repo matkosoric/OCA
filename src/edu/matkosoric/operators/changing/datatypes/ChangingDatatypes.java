@@ -32,8 +32,8 @@ public class ChangingDatatypes {
         System.out.println(l);
 
         double e = 10.0;
-        double f = 20.0;
-        double g = e + f;
+        int f = 20;
+        double g = e + f;           // integer is casted to double
         System.out.println(g);
     }
 }

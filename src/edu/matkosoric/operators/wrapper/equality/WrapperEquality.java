@@ -36,7 +36,7 @@ public class WrapperEquality {
         System.out.println("Comparing larger Integer: " + (fahrenheit1 == fahrenheit2));
 
         // values of Integers created with the 'new' keyword also can not be compared with the == operator
-        // notice that there are no compile-time or run-time exceptions - operator simply
+        // notice that there are no compile-time or runtime exceptions - operator simply
         // fails to compare Integer values, despite them being in the -127/+128 range.
         Integer minutesOfFame1 = new Integer (15);
         Integer minutesOfFame2 = new Integer (15);

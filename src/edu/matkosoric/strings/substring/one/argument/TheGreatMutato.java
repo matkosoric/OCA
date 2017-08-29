@@ -21,8 +21,8 @@ public class TheGreatMutato {
         System.out.println(postmodernPrometheus.substring(10));
 
         // out of bounds argument
-//        System.out.println(postmodernPrometheus.substring(10,20));      // throws run-time StringIndexOutOfBoundsException
-//        System.out.println(postmodernPrometheus.substring(20));         // throws run-time StringIndexOutOfBoundsException
+//        System.out.println(postmodernPrometheus.substring(10,20));      // throws runtime StringIndexOutOfBoundsException
+//        System.out.println(postmodernPrometheus.substring(20));         // throws runtime StringIndexOutOfBoundsException
 
 
     }

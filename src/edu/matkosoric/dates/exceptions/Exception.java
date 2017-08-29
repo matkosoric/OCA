@@ -16,7 +16,7 @@ public class Exception {
         System.out.println(time1);
 
         // minutes argument can not be larger than 59
-        LocalTime time2 = LocalTime.of(15,60);      // compiles, but throws a run-time DateTimeException
+        LocalTime time2 = LocalTime.of(15,60);      // compiles, but throws a runtime DateTimeException
         System.out.println(time2);
 
     }

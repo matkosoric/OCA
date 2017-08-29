@@ -19,10 +19,10 @@ public class PrimitiveNumbers {
         //first, we have to create shuffled Array
         List<Integer> shuffledListOfPrimeNumbers = Arrays.asList(orderedArrayOfPrimeNumbers);
         Collections.shuffle(shuffledListOfPrimeNumbers);
-        Integer [] shuffeledArrayOfPrimeNumbers = shuffledListOfPrimeNumbers.toArray(new Integer[shuffledListOfPrimeNumbers.size()]);
+        Integer [] shuffledArrayOfPrimeNumbers = shuffledListOfPrimeNumbers.toArray(new Integer[shuffledListOfPrimeNumbers.size()]);
 
         // BINARYSEARCH works only if array is previously sorted
-        int searchResult1 = Arrays.binarySearch(shuffeledArrayOfPrimeNumbers, 37);
+        int searchResult1 = Arrays.binarySearch(shuffledArrayOfPrimeNumbers, 37);
         System.out.println("Unsorted array search result: " + searchResult1);
 
         int searchResult2 = Arrays.binarySearch(orderedArrayOfPrimeNumbers, 37);        // despite being ordered, this will not work
@@ -32,9 +32,5 @@ public class PrimitiveNumbers {
         int searchResult3 = Arrays.binarySearch(orderedArrayOfPrimeNumbers, 37);
         System.out.println("Sorted array search result: " + searchResult3);     // returns index key
 
-
-
-
     }
-
 }

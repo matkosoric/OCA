@@ -39,7 +39,7 @@ public class PillsAndFood {
                 {7.00F, 12.00F, 18.00F},
                 {8.00F, 13.00F, 17.00F},
                 {7.00F, 12.00F, 18.00F}};
-//        Arrays.sort(weeklyMealSchedule);    // compiles, but throws a run-time ClassCastException
+//        Arrays.sort(weeklyMealSchedule);    // compiles, but throws a runtime ClassCastException
 
     }
 

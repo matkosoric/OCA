@@ -34,9 +34,9 @@ public class TruncatedTo {
         // these are not valid uses of TruncatedTo() method
 
 //        System.out.println(groundhogDayMorningTime.TruncatedTo());          // does not compile
-//        System.out.println(groundhogDayMorningTime.TruncatedTo(null));      // compiles, but throws a run-time NullPointerException
+//        System.out.println(groundhogDayMorningTime.TruncatedTo(null));      // compiles, but throws a runtime NullPointerException
 
-        // larger ChronoUnit value will compile, but throw a run-time Exception
+        // larger ChronoUnit value will compile, but throw a runtime Exception
 //        System.out.println(groundhogDayMorningTime.TruncatedTo(ChronoUnit.MONTHS));
 
 
@@ -55,7 +55,7 @@ public class TruncatedTo {
         System.out.println(groundhogDayDateTime.truncatedTo(ChronoUnit.MINUTES));
         System.out.println(groundhogDayDateTime.truncatedTo(ChronoUnit.DAYS));
 
-//        System.out.println(groundhogDayDateTime.TruncatedTo(ChronoUnit.MONTHS));    // compiles, but throws a run-time UnsupportedTemporalTypeException
+//        System.out.println(groundhogDayDateTime.TruncatedTo(ChronoUnit.MONTHS));    // compiles, but throws a runtime UnsupportedTemporalTypeException
 
     }
 
