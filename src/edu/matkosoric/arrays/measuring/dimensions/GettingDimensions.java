@@ -5,6 +5,7 @@ package edu.matkosoric.arrays.measuring.dimensions;
  * Java 8 SE, 2017.
  * Created by © Matko Soric.
  */
+
 public class GettingDimensions {
 
     public static void main(String[] args) {

@@ -91,13 +91,15 @@ public class DeclaringVariables {
 //        long l13 = 2_147_483_648;   // out of integer scope, does not compile
         long l13 = 2_147_483_648L;      // long literal, compiles fine
 
-        double d1 = 10;
-//        Double d2 = 10;           //does not compile, value is integer
-//        Double d3 = (Double) 10;  //does not compile, wrapper can not be used for casting
-        Double d4 = (double) 10;
-        double d5 = 500l;
-        double d6 = 300F;
-        Double d7 = (double) (byte) 2.0;
+        double d1 = 50;
+//        Double d2 = 50;           //does not compile, value is integer
+//        Double d3 = (Double) 50;  //does not compile, wrapper can not be used for casting
+        Double d4 = (double) 50;
+        double d5 = 500L;
+        double d6 = 500F;
+        Double d7 = (double) (byte) 5.0;
+        double d8 = 500.0d;
+
 
 
 //        float f1 = 200d;          //does not compile, double value has to be casted to float
@@ -111,5 +113,8 @@ public class DeclaringVariables {
 //        float f9 = -7.0;            // does not compile, double can not be implicitly widened to float
 //        float f10 = 6129234123;     // does not compile, out of scope for the integer typ
 //        float f11 = 4e8;            // does not compile, double value
+        float f12 = 4f;             // decimal point is not necessary
+        float f13 = 4L;
+        float f14 = (short)3;
     }
 }

@@ -11,8 +11,9 @@ public class Hierarchy {
     public static void main(String[] args) {
 
         // java operators have different levels of execution priority.
-        // they form a Hierarchy, which simply means that some operations have a priority over other.
-        // that priority can be changed with the use of parentheses ()
+        // they form a hierarchy, which simply means that some operations have a priority over another.
+        // that priority can be changed with the use of parentheses (), which have the highest priority.
+        // operators that occupy the same level of priority will be evaluated from left fo right.
 
 /*
       ()                  Parentheses
@@ -78,7 +79,10 @@ public class Hierarchy {
         boolean k = 234 <= 271;
         boolean a = 65 <= 27 ? 53 != 88 || true ^ !!!false & !true && true : !true ^ 6-2*8<<+3/1 == 82 / 19>>2;
 
+        int r = 0;
+        int j = r+=3 + 5 + 3 * 2;
 
+        System.out.println(r);
     }
 
 }

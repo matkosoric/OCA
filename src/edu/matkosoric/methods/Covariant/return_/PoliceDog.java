@@ -6,7 +6,16 @@ package edu.matkosoric.methods.covariant.return_;
  * Created by © Matko Soric.
  */
 
+import edu.matkosoric.methods.covariant.return_.covariant.return_.types.Cocain;
+import edu.matkosoric.methods.covariant.return_.covariant.return_.types.Heroin;
+import edu.matkosoric.methods.covariant.return_.covariant.return_.types.Methamphetamine;
+import edu.matkosoric.methods.covariant.return_.dog.types.PoliceDog1;
+import edu.matkosoric.methods.covariant.return_.dog.types.PoliceDog2;
+import edu.matkosoric.methods.covariant.return_.dog.types.PoliceDog3;
+
 public class PoliceDog {
+
+    // overridden method must return either the same data type, or it's subclass
 
     String name;
 
@@ -15,8 +24,6 @@ public class PoliceDog {
         this.name = name;
     }
 
-    // overloaded method must return either the same data type, or it's subclass
-
     public static void main(String[] args) {
 
         PoliceDog buster = new PoliceDog("Buster");
@@ -24,41 +31,23 @@ public class PoliceDog {
         buster.training();
         buster.running();
 
+        PoliceDog1 rex = new PoliceDog1();
+        HardDrugs inspection1 = rex.sniffingBaggage("ordinary person");
+        System.out.println(inspection1 instanceof Heroin);
+        HardDrugs inspection2 = rex.sniffingBaggage("Kurt Cobain");
+        System.out.println(inspection2 instanceof Heroin);
 
-        // calling original method
-        if (buster.sniffingBaggage("ordinary person")!= null) {
-            System.out.println("Buster found: " + buster.sniffingBaggage("ordinary person").substanceName);
-        }
-        if (buster.sniffingBaggage("drug smuggler")!= null) {
-            System.out.println("Buster found: " + buster.sniffingBaggage("drug smuggler").substanceName);
-        }
+        PoliceDog2 tom = new PoliceDog2();
+        HardDrugs inspection3 = tom.sniffingBaggage("ordinary person");
+        System.out.println(inspection3 instanceof Cocain);
+        HardDrugs inspection4 = tom.sniffingBaggage("Robert Downey Jr.");
+        System.out.println(inspection4 instanceof Cocain);
 
-        // calling first overloaded method
-        if (buster.sniffingBaggage(222) != null) {
-            System.out.println("Buster found: " + buster.sniffingBaggage(222).substanceName);
-        }
-        if (buster.sniffingBaggage(453) != null) {
-            System.out.println("Buster found: " + buster.sniffingBaggage(453).substanceName);
-        }
-
-
-        // calling second overloaded method
-        if (buster.sniffingBaggage(false) != null) {
-            System.out.println("Buster found: " + buster.sniffingBaggage(false).substanceName);
-        }
-        if (buster.sniffingBaggage(true) != null) {
-            System.out.println("Buster found: " + buster.sniffingBaggage(true).substanceName);
-        }
-
-
-        // calling third overloaded method
-        if (buster.sniffingBaggage("John Doe", "Retail Store") != null) {
-            System.out.println("Buster found: " + buster.sniffingBaggage("John Doe", "Retail Store").substanceName);
-        }
-        if (buster.sniffingBaggage("John Doe", "Wall Street") != null) {
-            System.out.println("Buster found: " + buster.sniffingBaggage("John Doe", "Wall Street").substanceName);
-        }
-
+        PoliceDog3 pam = new PoliceDog3();
+        HardDrugs inspection5 = pam.sniffingBaggage("ordinary person");
+        System.out.println(inspection5 instanceof Methamphetamine);
+        HardDrugs inspection6 = pam.sniffingBaggage("Marilyn Monroe");
+        System.out.println(inspection6 instanceof Methamphetamine);
 
     }
 
@@ -77,47 +66,6 @@ public class PoliceDog {
             return new HardDrugs();
         else return null;
     }
-
-    // 1st overloaded method
-    public Heroin sniffingBaggage (int baggageID) {
-        if (baggageID == 453)
-            return new Heroin();
-        else return null;
-    }
-
-    // 2st overloaded method
-    public Methamphetamine sniffingBaggage (boolean evidence) {
-        if (evidence == true)
-            return new Methamphetamine();
-        else return null;
-    }
-    // 3rd overloaded method
-    public Cocain sniffingBaggage (String baggageOwner, String workingLocation) {
-        if (workingLocation == "Wall Street")
-            return new Cocain();
-        else return null;
-    }
-
-}
-
-// top class
-class HardDrugs {
-    String substanceName = "illegal substance";
-    double weight = 0.0;
 }
 
 
-// covariant return type
-class Heroin extends HardDrugs{
-    String substanceName = "Heroin";
-}
-
-// covariant return type
-class Methamphetamine extends HardDrugs{
-    String substanceName = "Methamphetamine";
-}
-
-// covariant return type
-class Cocain extends HardDrugs{
-    String substanceName = "Cocain";
-}

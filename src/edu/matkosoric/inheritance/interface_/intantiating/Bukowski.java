@@ -10,7 +10,11 @@ public class Bukowski implements Writing{
 
     public static void main(String[] args) {
 
-//        new Writing.writingWithPencil();      // does not compile
+//        new Writing.writingWithPencil();        // does not compile
+//        new Bukowski.writingWithPencil();       // does not compile
+//        writingWithPencil();                    // does not compile
+
+        Writing.writingWithPencil();
 
     }
 }
