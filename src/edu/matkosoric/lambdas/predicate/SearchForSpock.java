@@ -16,6 +16,7 @@ public class SearchForSpock {
 
     public static void main(String[] args) {
 
+        // setting up a small data set
         List<String> enterpriseOfficers = new ArrayList<>();
         enterpriseOfficers.add("James T. Kirk");
         enterpriseOfficers.add("Leonard H. McCoy");
@@ -25,11 +26,19 @@ public class SearchForSpock {
         enterpriseOfficers.add("Pavel Chekov");
         enterpriseOfficers.add("Hikaru Sulu");
 
-        String result = searchFor(enterpriseOfficers, a -> a == "Spock");
-        System.out.println("first search: " + result);
 
-        result = searchFor(enterpriseOfficers, a -> a == "Jean-Luc Picard");
-        System.out.println("second search: " + result);
+        String result1 = searchFor(enterpriseOfficers, a -> a == "Spock");
+        System.out.println("first search: " + result1);
+
+        // simple change of the lambda expression is enough for different result
+        String result2 = searchFor(enterpriseOfficers, a -> a == "Jean-Luc Picard");
+        System.out.println("second search: " + result2);
+
+        // lambda expression could be extracted out
+        Predicate <String> predicateParameter = a -> a == "Data";
+        String result3 = searchFor(enterpriseOfficers, predicateParameter);
+        System.out.println("third search: " + result3);
+
     }
 
     private static String searchFor (List<String> officers, Predicate <String> missingOfficer ) {
