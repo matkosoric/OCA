@@ -11,6 +11,8 @@ import java.time.temporal.ChronoUnit;
 
 public class Immutability {
 
+    // Java 8 Date and Time classes are immutable
+
     public static void main(String[] args) {
 
         LocalDate date = LocalDate.of(2017, 5, 19);

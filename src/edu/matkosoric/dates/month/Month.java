@@ -16,7 +16,7 @@ public class Month {
         System.out.println(date1.getMonthValue());       // output: 1
 
         LocalDate date2 = LocalDate.ofYearDay(2016, 364);
-        System.out.println(date2.getMonthValue());
+        System.out.println(date2.getMonthValue());      // output: 12
 
 //        LocalDate date3 = LocalDate.ofYearDay(2015, 370);   // compiles, but throws a runtime exception
 //        System.out.println(date3);

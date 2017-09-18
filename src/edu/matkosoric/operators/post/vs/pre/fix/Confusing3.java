@@ -26,7 +26,6 @@ public class Confusing3 {
         int e = 4;
         System.out.println(d-- - --d);              // 4 - 2,
 
-
     }
 
 }

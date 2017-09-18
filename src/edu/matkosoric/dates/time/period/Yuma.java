@@ -12,9 +12,9 @@ import java.time.temporal.ChronoUnit;
 
 public class Yuma {
 
-    public static void main(String[] args) {
+    // Period type can not be added to the LocalTime type
 
-        // Period type can not be added to the LocalTime type
+    public static void main(String[] args) {
 
         Period delayTime = Period.ofDays(2);
         LocalTime trainToYuma = LocalTime.of(15, 10);

@@ -17,7 +17,7 @@ public class TheGreatMutato {
         // classical use
         System.out.println(postmodernPrometheus.substring(10, 16));
 
-        // one argument
+        // one argument, creates string from input index to the end
         System.out.println(postmodernPrometheus.substring(10));
 
         // out of bounds argument
