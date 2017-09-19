@@ -8,6 +8,8 @@ package edu.matkosoric.inheritance.interface_.variables;
 
 public class LeonardoDaVinci implements LeonardoInterface {
 
+    // interface variables are implicitly public, static and final
+
     // implementation of interface methods with blank body
     public void drawing() {}
     public void sculpting() {}

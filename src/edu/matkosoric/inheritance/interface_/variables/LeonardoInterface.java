@@ -22,7 +22,7 @@ public interface LeonardoInterface {
 //    private writing2 ();        // does not compile
 //    protected inventing2();     // does not compile
 
-//    private String inventionNo5 = "iPhone";         // does not compile
-//    protected String inventionNo6 = "Transistor";   // does not compile
+//    private String inventionNo5 = "iPhone";         // does not compile, access modifier are not allowed with interface variables
+//    protected String inventionNo6 = "Transistor";   // does not compile, access modifier are not allowed with interface variables
 
 }

@@ -48,6 +48,22 @@ public class Casting {
 //        int i2 = 72.3;      // does not compile
         int i3 = (int)72.3;
 //        int i4 = 72L;       // does not compile
+        int i5 = (short)72;
+        int i6 = (byte)72;
+//        int i7 = 72.0f;         // does not compile without explicit downcast
+        int i8 = (int)72.0f;
+//        int i9 = 72.0;          // does not compile without explicit downcast
+        int i10 =(int)72.0;
+        int i11 = (short)72.0;
+        int i12 = (byte)72.0;
+        int i13 = '2';              // i13 gets value of 50, ASCII code for character '2'
+        int i14 = (char)72.1;       // i14 gets value of 72
+        int i15 = (char) 72.9;      // i15 gets value of 72
+//        int i16 = "s";              // does not compile
+//        int i17 = Integer.parseInt("s");        // compiles fine, but throws a run time NumberFormatException
+        int i18 = Integer.parseInt("72");         // i18 gets value of 72
+        System.out.println(i18);
+
 
         // CHAR
         char c1 = 4;

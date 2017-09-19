@@ -14,6 +14,8 @@ import static java.lang.Double.*;
 
 public class Conflict {
 
+    // conflicting variables will produce a compile time error, not run time error
+
     public static void main(String[] args) {
 
         // the variable named SIZE is present in both Short and Float class,

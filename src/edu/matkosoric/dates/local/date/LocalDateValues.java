@@ -12,7 +12,7 @@ import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoField;
 import java.time.temporal.ChronoUnit;
 
-public class LocalDateSandbox {
+public class LocalDateValues {
 
     public static void main(String[] args) {
 
@@ -34,6 +34,7 @@ public class LocalDateSandbox {
         System.out.println(localDate4.getDayOfWeek());      // MONDAY
         System.out.println(localDate4.getDayOfMonth());     // 18
         System.out.println(localDate4.getDayOfYear());      // 261
+        System.out.println(localDate4.getLong(ChronoField.DAY_OF_YEAR));        // 261
 
         System.out.println(localDate4.atTime(11, 40, 55));              // returns a LocalDateTime object
         LocalDateTime localDateTime1 = localDate4.atTime(11, 40, 55);

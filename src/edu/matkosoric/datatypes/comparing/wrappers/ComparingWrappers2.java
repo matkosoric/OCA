@@ -21,10 +21,14 @@ public class ComparingWrappers2 {
         Integer i4 = 127;
         System.out.println(i3 == i4);           // true
 
+        Integer i5 = 1;
+        Integer i6 = 1;
+        System.out.println(i5 == i6);           // true
+
         // value out of scope
-        Integer i5 = 128;
-        Integer i6 = 128;
-        System.out.println(i5 == i6);            // false
+        Integer i7 = 128;
+        Integer i8 = 128;
+        System.out.println(i7 == i8);            // false
 
     }
 
