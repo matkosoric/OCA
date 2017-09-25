@@ -9,7 +9,7 @@ package edu.matkosoric.polymorphism.terminator;
 public class T1000 extends T800 {
 
     // static and private methods are never inherited, and
-    // therefore, to not succumb to the rules of polymorphism
+    // therefore, do not succumb to the rules of polymorphism
 
     public static void main(String[] args) {
 

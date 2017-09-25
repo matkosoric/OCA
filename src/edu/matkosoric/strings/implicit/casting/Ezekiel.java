@@ -23,5 +23,7 @@ public class Ezekiel {
         System.out.println(6 + 6 + 6 + " execution unfettered by a string variable");
         System.out.println("execution disturbed with string variable: " + 6 + 6 + 6);
 
+//        System.out.println("and finally weird example that does not compile due to the minus: " + 6 + 6 - 6);       // does not compile
+
     }
 }

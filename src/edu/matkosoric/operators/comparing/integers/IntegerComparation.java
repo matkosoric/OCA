@@ -8,7 +8,7 @@ package edu.matkosoric.operators.comparing.integers;
 
 public class IntegerComparation {
 
-    // operator == checks for the memory location, disregarding the value itself
+    //
 
     public static void main(String[] args) {
 
@@ -20,6 +20,14 @@ public class IntegerComparation {
         Integer numberOfHorns2 = 3;
         System.out.println(numberOfHorns1 == numberOfHorns2);       // output: true
 
+        int bones_i = 206;
+        double bones_d = 206.00;
+        System.out.println(bones_i == bones_d);                     // output: true. int is up-casted to double
+
+        Integer ears_i_w = 4;
+        Double ears_d_w = 4.0;
+        System.out.println(ears_i_w.equals(ears_d_w));              // false. different wrapper types always return false.
+//        System.out.println(ears_i_w == ears_d_w);                   // does not compile, operator == can not be used on objects
     }
 
 }

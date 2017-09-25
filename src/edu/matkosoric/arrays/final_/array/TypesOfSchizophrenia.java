@@ -10,7 +10,6 @@ public class TypesOfSchizophrenia {
 
     public static void main(String[] args) {
 
-
         // although array object might be final, its elements still can be altered without any exceptions
 
         final String [] typesOfSchizophrenia = new String[]{"Paranoid", "Catatonic", "Disorganised", "Undifferentiated", "Residual"  };
