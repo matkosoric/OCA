@@ -10,30 +10,47 @@ public class ChangingDatatypes {
 
     public static void main(String[] args) {
 
-        // operators implicitly change the data type of its operands
+        // operators implicitly change the data type of its operands.
         // data types smaller than int are casted to int
 
-        byte a = 3;
-        byte b = 2;
-//        byte c = a + b;         // does not compile
-        byte d = (byte) (a+b);
-        System.out.println(d);
+        byte a1 = 3;
+        byte a2 = 2;
+//        byte a3 = a1 + a2;         // does not compile
+        byte a4 = (byte) (a1+a2);
+        System.out.println(a4);     // 5
 
-        byte a2 = 10;
+        byte b1 = 10;
         byte b2 = 5;
-//        byte c2 = a2 / b2;      // does not compile
-        byte d2 = (byte) (a2/b2);
-        System.out.println(d2);
+//        byte b3 = b1 / b2;      // does not compile
+        byte b4 = (byte) (b1/b2);
+        System.out.println(b4);         // 2
 
-        short i = 5;
-        short j = 4;
-//        short k = i + j;        // does not compile
-        short l = (short) (i+j);
-        System.out.println(l);
+        short c1 = 5;
+        short c2 = 4;
+//        short c3 = c1 + c2;        // does not compile
+        short c4 = (short) (c1+c2);
+        System.out.println(c4);         // 9
 
-        double e = 10.0;
-        int f = 20;
-        double g = e + f;           // integer is casted to double
-        System.out.println(g);
+        double d1 = 10.0;
+        int d2 = 20;
+        double d3 = d1 + d2;           // integer is casted to double
+        System.out.println(d3);         // 30.0
+
+        long e1 = 2;
+        float e2 = 6;
+//        long e3 = e1 + e2;              // does not compile
+        long e4 = (long)(e1+e2);
+        System.out.println(e4);         // 8
+
+
+        short f1 = 5;
+        int f2 = 3;
+        float f3 = 1f;
+        Object f4 = f1 + f2 + f3;
+        System.out.println(f4 instanceof Float);            // true
+        System.out.println(f4 instanceof Double);           // false
+        System.out.println(f4 instanceof Short);            // false
+
+
     }
 }

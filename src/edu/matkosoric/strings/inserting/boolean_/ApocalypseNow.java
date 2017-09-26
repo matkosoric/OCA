@@ -13,7 +13,7 @@ public class ApocalypseNow {
     public static void main(String[] args) {
 
         StringBuilder opening = new StringBuilder ("Saigon... shit; I'm still only in Saigon");
-        opening.insert(opening.lastIndexOf("Saigon"), true);
+        opening.insert(opening.lastIndexOf("Saigon"), true);                                            // weird but valid
         System.out.println(opening);        // output: Saigon... shit; I'm still only in trueSaigon
 
     }
