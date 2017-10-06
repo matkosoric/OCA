@@ -25,8 +25,6 @@ public class TopClass {
 
     }
 
-
-
     // numberSeven is an inner static class
     public static class numberSeven {
 

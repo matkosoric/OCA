@@ -1,4 +1,4 @@
-package edu.matkosoric.inheritance.casting;
+package edu.matkosoric.inheritance.casting2;
 
 /*
  * Code examples for Oracle Certified Associate (OCA) Exam
@@ -6,5 +6,5 @@ package edu.matkosoric.inheritance.casting;
  * Created by © Matko Soric.
  */
 
-public class EuroAsia extends Pangaea {
+public class Programming {
 }

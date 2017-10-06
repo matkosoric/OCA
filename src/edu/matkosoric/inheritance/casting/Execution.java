@@ -6,6 +6,11 @@ package edu.matkosoric.inheritance.casting;
  * Created by © Matko Soric.
  */
 
+import edu.matkosoric.inheritance.casting.data.types.Africa;
+import edu.matkosoric.inheritance.casting.data.types.Asia;
+import edu.matkosoric.inheritance.casting.data.types.EuroAsia;
+import edu.matkosoric.inheritance.casting.data.types.Pangaea;
+
 public class Execution {
 
     // examples of possible and impossible casts between objects with varying reference and object types

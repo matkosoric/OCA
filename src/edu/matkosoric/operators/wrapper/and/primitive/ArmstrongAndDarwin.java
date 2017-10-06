@@ -10,7 +10,7 @@ public class ArmstrongAndDarwin {
 
     public static void main(String[] args) {
 
-        short moonLandingPrimitive= 1969;
+        short moonLandingPrimitive = 1969;
         Long moonLandingWrapper = 1969L;
 
         System.out.println(moonLandingWrapper == moonLandingPrimitive);         // true

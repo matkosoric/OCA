@@ -30,8 +30,5 @@ public class Wheather implements Rain, Snow{
         System.out.println(((Snow)a).amountOf);     // valid
         System.out.println(((Rain)a).amountOf);     // valid
 
-
-
     }
-
 }

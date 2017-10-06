@@ -62,7 +62,9 @@ public class Temperature {
         }
 
         double[] measuredTemperature13 = new double[5];
-        Arrays.fill(measuredTemperature13, Math.random() * 10);
+        Arrays.fill(measuredTemperature13, Math.random() * 10);     // every element will get identical value
+        for (double e : measuredTemperature13)
+            System.out.println(e);
 
     }
 }

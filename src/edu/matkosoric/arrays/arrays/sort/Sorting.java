@@ -19,8 +19,8 @@ public class Sorting {
         for (int element : shuffled)
             System.out.println(element);
 
-        // this will return index of searched value
-        System.out.println(Arrays.binarySearch(shuffled,1990));     //returns index 4
+        // this will return the index of searched value
+        System.out.println(Arrays.binarySearch(shuffled, 1990));     //returns index 4
 
 
         // this will partially sort array, starting from index 2 to element right before inputted index.
@@ -29,6 +29,14 @@ public class Sorting {
         Arrays.sort(shuffled2, 2, 4);
         for (int element : shuffled2)
             System.out.println(element);
+
+
+        // sort method can not be called on a multidimensional arrays
+        int [] [] [] datesYearMonthDay = {{ {1914}, {3}, {29}},
+                                            {{1958}, {4},{25}},
+                                            {{2010}, {2}, {19}}};
+
+//        Arrays.sort(datesYearMonthDay);             // compiles fine, but throws ClassCastException at run time
 
     }
 
