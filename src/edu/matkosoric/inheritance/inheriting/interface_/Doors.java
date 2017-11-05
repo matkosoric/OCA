@@ -15,7 +15,7 @@ public class Doors implements PlayingMusicInstruments{
         Doors d = new Doors();
         d.playingDrums();
         d.playingKeyboard();
-//        d.playingGuiter();      // does not compile
+//        d.playingGuitar();      // does not compile
 
         PlayingMusicInstruments.playingGuitar();
 
