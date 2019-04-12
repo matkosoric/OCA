@@ -17,7 +17,7 @@ public class ArmstrongAndDarwin {
         // because wrapper is unboxed
 
         System.out.println(moonLandingWrapper.equals(moonLandingPrimitive));    // false
-        // because primitive is autoboxed from short to Integer wrapper,
+        // because primitive is autoboxed from short to Short wrapper,
         // and comparing different classes (wrappers in this case) returns false
 
 
